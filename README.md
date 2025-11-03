@@ -4,7 +4,6 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 
 ## 🚀 Features
 
-- **Blockchain Integration**: Secure vote storage with cryptographic hashing
 - **Password Security**: Bcrypt hashing with salt rounds
 - **JWT Authentication**: Secure user sessions
 - **Role-Based Access**: Admin and Voter dashboards
@@ -20,25 +19,31 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 ## 🛠️ Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Codesofshravani/VoteSecure.git
    cd VoteSecure
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Setup MySQL Database**
+
    - Start MySQL server
    - Run the setup script:
+
    ```bash
    mysql -u root -p < database/setup.sql
    ```
 
 4. **Configure Environment**
+
    - Copy `.env` file and update with your settings:
+
    ```
    DB_HOST=localhost
    DB_USER=root
@@ -46,7 +51,7 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
    DB_NAME=votesecure
    JWT_SECRET=your_secret_key_here
    PORT=3000
-   
+
    # Blockchain Configuration
    BLOCKCHAIN_NETWORK=http://localhost:8545
    CONTRACT_ADDRESS=0x...
@@ -57,15 +62,19 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 ## 🚀 Running the Application
 
 1. **Start the backend server**
+
    ```bash
    npm start
    ```
+
    Or for development:
+
    ```bash
    npm run dev
    ```
 
 2. **Start the frontend**
+
    ```bash
    npm run client
    ```
@@ -77,10 +86,12 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 ## 👥 Default Users
 
 ### Admin Account
+
 - Email: `admin@votesecure.com`
 - Password: `admin123`
 
 ### Voter Account
+
 - Email: `voter@example.com`
 - Password: `voter123`
 
@@ -95,6 +106,7 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 ## 📊 Database Schema
 
 ### Users Table
+
 - `id`: Primary key
 - `name`: User full name
 - `email`: Unique email address
@@ -103,6 +115,7 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 - `blockchain_address`: Ethereum address
 
 ### Elections Table
+
 - `id`: Primary key
 - `title`: Election title
 - `description`: Election description
@@ -112,6 +125,7 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 - `blockchain_hash`: SHA-256 hash
 
 ### Votes Table
+
 - `id`: Primary key
 - `election_id`: Foreign key to elections
 - `candidate_id`: Foreign key to candidates
@@ -122,14 +136,17 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 ## 🔗 API Endpoints
 
 ### Authentication
+
 - `POST /api/register` - User registration
 - `POST /api/login` - User login
 
 ### Elections
+
 - `GET /api/elections` - Get all elections
 - `POST /api/elections` - Create election (Admin only)
 
 ### Voting
+
 - `POST /api/vote` - Cast vote (Voter only)
 
 ## 🧪 Testing
@@ -142,6 +159,7 @@ A secure, transparent, and decentralized voting platform built with Node.js, MyS
 ## 🔧 Development
 
 ### Project Structure
+
 ```
 VoteSecure/
 ├── src/                 # Frontend files
@@ -155,6 +173,7 @@ VoteSecure/
 ```
 
 ### Adding New Features
+
 1. Update database schema in `database/setup.sql`
 2. Add API endpoints in `server.js`
 3. Update frontend in `src/` directory
