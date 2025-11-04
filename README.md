@@ -3,7 +3,7 @@
 A secure, transparent, and decentralized voting platform built with Node.js, MySQL, and blockchain technology.
 
 ## 🚀 Features
-
+- **Blockchain Integration**: Secure vote storage with cryptographic hashing
 - **Password Security**: Bcrypt hashing with salt rounds
 - **JWT Authentication**: Secure user sessions
 - **Role-Based Access**: Admin and Voter dashboards
