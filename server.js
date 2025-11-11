@@ -424,6 +424,20 @@ app.post('/api/vote', authenticateToken, async (req, res) => {
           from: accounts[0],
           gas: 300000
         });
+
+        // directly extract the votecast event data
+        if (tx.events && tx.events.VoteCast) {
+          const eventData = tx.events.VoteCast.returnValues;
+          console.log("VoteCast Event from Blockchain:")
+          console.log({
+            electionId: eventData.electionId,
+            candidateId: eventData.candidateId,
+            voter: eventData.voter,
+            timestamp: eventData.timestamp
+          })
+        } else {
+          console.log("No VoteCast event found in the transaction receipt");
+        }
         
         blockchainTxHash = tx.transactionHash;
         console.log('Blockchain vote cast:', blockchainTxHash);
