@@ -74,7 +74,7 @@
   "sourceMap": "58:480:0:-;;;210:50;8:9:-1;5:2;;;30:1;27;20:12;5:2;210:50:0;245:10;237:5;;:18;;;;;;;;;;;;;;;;;;58:480;;;;;;",
   "deployedSourceMap": "58:480:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:480:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;371:165;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;371:165:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;106:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;82:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;264:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;264:103:0;;;;;;;;;;;;;;;;;:::i;:::-;;371:165;193:5;;;;;;;;;;;179:19;;:10;:19;;;175:26;;;433:19;466:11;433:45;;484:8;:21;;;506:24;;484:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;484:47:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;484:47:0;;;;200:1;175:26;371:165;:::o;106:36::-;;;;:::o;82:20::-;;;;;;;;;;;;;:::o;264:103::-;193:5;;;;;;;;;;;179:19;;:10;:19;;;175:26;;;353:9;326:24;:36;;;;175:26;264:103;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.5.16;\n\ncontract Migrations {\n  address public owner;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    if (msg.sender == owner) _;\n  }\n\n  constructor() public {\n    owner = msg.sender;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n\n  function upgrade(address new_address) public restricted {\n    Migrations upgraded = Migrations(new_address);\n    upgraded.setCompleted(last_completed_migration);\n  }\n}\n",
-  "sourcePath": "/Users/ganesh/python/Ethereum-Blockchain-based-Electronic-Voting-System/VoteSecure/contracts/Migrations.sol",
+  "sourcePath": "/Users/ganesh/Desktop/CN7021/E-voting/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1471,10 +1471,22 @@
       "links": {},
       "address": "0x6C0Af72CbaACF280e17eE1A86748dD71A478fc20",
       "transactionHash": "0x611537eac49c94d5dad0781370874e45b43cf2e39b954e547e239e8bd65e10e0"
+    },
+    "1762876202192": {
+      "events": {},
+      "links": {},
+      "address": "0xF3c74028f7C4AD96A3F311F12e93f2f950d575A6",
+      "transactionHash": "0xccab1e0a5a557180751f8a7ae2f15d3816ead7376be4c3998ca1888eb14f6dfe"
+    },
+    "1763499811325": {
+      "events": {},
+      "links": {},
+      "address": "0x140ed96702a5084FE4C7aB5bf15F8a3FA9b3DCDb",
+      "transactionHash": "0xe0f5c1162b101d05b3603529cc290096707b64ffb56246754de460937ddb5d14"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-11-01T08:40:42.816Z",
+  "updatedAt": "2025-11-18T21:05:20.144Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
