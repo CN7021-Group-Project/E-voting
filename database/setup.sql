@@ -1,3 +1,4 @@
+
 -- VoteSecure Database Setup
 CREATE DATABASE IF NOT EXISTS votesecure;
 USE votesecure;
