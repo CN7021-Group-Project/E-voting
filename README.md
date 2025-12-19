@@ -193,12 +193,27 @@ This project is licensed under the ISC License.
 
 ## 🤝 Contributing
 
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for detailed information on:
+
+- Code of conduct
+- Development setup
+- Commit message conventions
+- Pull request process
+- Coding standards
+- Security guidelines
+
+Quick start:
 1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Create Pull Request
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Follow our [commit conventions](CONTRIBUTING.md#commit-guidelines)
+4. Push to your branch and create a Pull Request
 
 ## 📞 Support
 
-For support and questions, please create an issue in the repository.
+For support and questions:
+
+- 📖 Check the [Documentation](README.md)
+- 🐛 [Report a bug](https://github.com/CN7021-Group-Project/E-voting/issues/new?template=bug_report.md)
+- 💡 [Request a feature](https://github.com/CN7021-Group-Project/E-voting/issues/new?template=feature_request.md)
+- 🔒 [Report a security vulnerability](https://github.com/CN7021-Group-Project/E-voting/issues/new?template=security_vulnerability.md)
+- 💬 Browse existing [issues](https://github.com/CN7021-Group-Project/E-voting/issues)
