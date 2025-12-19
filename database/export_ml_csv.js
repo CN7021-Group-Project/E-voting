@@ -11,7 +11,7 @@ async function main() {
         database: "votesecure"
     });
 
-    console.log("\n📥 Fetching ML training data...");
+    console.log("\nFetching ML training data...");
 
     const [rows] = await conn.execute(`
         SELECT * FROM ml_turnout_features;
@@ -27,9 +27,10 @@ async function main() {
         Object.values(row).join(",")
     ).join("\n");
 
-    fs.writeFileSync(filePath, csv); // <— creates file successfully
+    // <— creates file successfully
+    fs.writeFileSync(filePath, csv); 
 
-    console.log("\n✅ CSV Export Complete!");
+    console.log("\nCSV Export Complete!");
     console.log("👉 File saved at: prediction/ml_turnout_features.csv\n");
 
     process.exit();

@@ -5,13 +5,14 @@ import pickle
 # Load trained model
 model = pickle.load(open("prediction/random_forest_turnout_reg.pkl", "rb"))
 
-# ---- READ INPUTS ----
+# READ INPUTS
 num_candidates = float(sys.argv[1])
 duration_days = float(sys.argv[2])
 total_registered_voters = float(sys.argv[3])
-total_votes = float(sys.argv[4])   # we still input it, but derived feature is used
+# we still input it, but derived feature is used
+total_votes = float(sys.argv[4])   
 
-# ---- CREATE SAME FEATURES AS TRAINED MODEL ----
+# CREATE SAME FEATURES AS TRAINED MODEL
 votes_per_candidate = total_votes / num_candidates
 
 X = pd.DataFrame([[
@@ -26,7 +27,7 @@ X = pd.DataFrame([[
     "votes_per_candidate"
 ])
 
-# ---- PREDICT ----
+# PREDICT
 pred = model.predict(X)[0]
 
 print("\n--------------------------------------")
