@@ -22,9 +22,9 @@ Thank you for considering contributing to VoteSecure! This document provides gui
 ## Getting Started
 
 1. **Fork the repository**
-   ```bash
-   git fork https://github.com/CN7021-Group-Project/E-voting.git
-   ```
+   - Go to https://github.com/CN7021-Group-Project/E-voting
+   - Click the "Fork" button in the top right
+   - Or use GitHub CLI: `gh repo fork CN7021-Group-Project/E-voting --clone`
 
 2. **Clone your fork**
    ```bash
@@ -43,7 +43,16 @@ Thank you for considering contributing to VoteSecure! This document provides gui
    ```
 
 5. **Configure environment variables**
-   - Copy `.env` and update with your settings
+   - Create a `.env` file in the root directory
+   - Copy the settings from the README or use this template:
+   ```
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASSWORD=your_mysql_password
+   DB_NAME=votesecure
+   JWT_SECRET=your_secret_key_here
+   PORT=3000
+   ```
 
 6. **Create a new branch**
    ```bash
