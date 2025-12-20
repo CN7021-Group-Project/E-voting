@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VoteSecure - Election Results</title>
+  <link rel="stylesheet" href="../css/results.css" />
+</head>
+
+<body>
+  <div class="page-container">
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="left">
+        <h2>Election Results</h2>
+        <p class="muted">
+          Detailed summary of the final vote distribution for the selected election
+        </p>
+      </div>
+      <div class="right">
+        <a href="admin-dashboard.html" class="btn outline">
+          ← Back to Dashboard
+        </a>
+      </div>
+    </div>
+
+    <!-- MAIN CARD -->
+    <div class="card">
+
+      <h3 class="election-title" id="electionTitle">Loading...</h3>
+      <p class="election-meta" id="electionMeta">Loading election details...</p>
+
+      <!-- RESULTS TABLE -->
+      <table class="results-table">
+        <thead>
+          <tr>
+            <th>Candidate</th>
+            <th>Description</th>
+            <th>Votes</th>
+          </tr>
+        </thead>
+        <tbody id="resultsTableBody">
+          <tr>
+            <td colspan="3">Loading results...</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- BAR CHART -->
+      <div class="chart-container">
+        <h4 class="chart-heading">Votes per Candidate</h4>
+        <p class="chart-caption">
+          Bar chart showing the absolute number of votes received by each candidate.
+        </p>
+        <canvas id="resultsChart"></canvas>
+      </div>
+
+      <!-- PIE CHART -->
+      <div class="chart-container" id="pieChartWrapper">
+        <h4 class="chart-heading">Vote Share Distribution</h4>
+        <p class="chart-caption">
+          Pie chart showing the percentage share of total votes for each candidate.
+        </p>
+        <canvas id="resultsPieChart"></canvas>
+      </div>
+
+    </div>
+
+    <div class="footer-note small muted">
+      Results are automatically calculated and displayed once an election is closed.
+    </div>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="../js/api.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    let barChart = null;
+    let pieChart = null;
+
+    /* ---------------- AUTH CHECK ---------------- */
+    if (!isAuthenticated()) {
+      window.location.href = "welcome.html";
+    }
+
+    /* ---------------- GET ELECTION ID ---------------- */
+    const urlParams = new URLSearchParams(window.location.search);
+    const electionId = urlParams.get("id");
+
+    if (!electionId) {
+      alert("No election selected");
+      window.location.href = "admin-dashboard.html";
+    }
+
+    /* ---------------- LOAD RESULTS ---------------- */
+    async function loadElectionResults() {
+      try {
+        const elections = await api.getElections();
+        const election = elections.find(e => e.id == electionId);
+
+        if (!election) {
+          alert("Election not found");
+          window.location.href = "admin-dashboard.html";
+          return;
+        }
+
+        /* ---- META INFO ---- */
+        document.getElementById("electionTitle").textContent = election.title;
+        document.getElementById("electionMeta").innerHTML = `
+          Status: <strong>${election.status}</strong> |
+          Ended on: <strong>${new Date(election.end_date).toLocaleString()}</strong> |
+          Candidates: <strong>${election.candidates?.length || 0}</strong>
+        `;
+
+        /* ---- TABLE ---- */
+        const tableBody = document.getElementById("resultsTableBody");
+        tableBody.innerHTML = "";
+
+        if (!election.candidates || election.candidates.length === 0) {
+          tableBody.innerHTML =
+            `<tr><td colspan="3">No candidates found.</td></tr>`;
+          return;
+        }
+
+        election.candidates.forEach(candidate => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${escapeHtml(candidate.name)}</td>
+            <td>${escapeHtml(candidate.description || "No description")}</td>
+            <td class="votes">${candidate.vote_count || 0}</td>
+          `;
+          tableBody.appendChild(row);
+        });
+
+        createBarChart(election.candidates);
+        createPieChart(election.candidates);
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById("electionTitle").textContent = "Error";
+        document.getElementById("electionMeta").textContent =
+          "Unable to load election results.";
+      }
+    }
+
+    /* ---------------- BAR CHART ---------------- */
+    function createBarChart(candidates) {
+      const ctx = document.getElementById("resultsChart").getContext("2d");
+
+      if (barChart) barChart.destroy();
+
+      const labels = candidates.map(c => c.name);
+      const votes = candidates.map(c => c.vote_count || 0);
+
+      barChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels,
+          datasets: [{
+            label: "Votes",
+            data: votes,
+            backgroundColor: generateColors(votes.length),
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: { precision: 0 }
+            }
+          }
+        }
+      });
+    }
+
+    /* ---------------- PIE CHART ---------------- */
+    function createPieChart(candidates) {
+      const ctx = document.getElementById("resultsPieChart").getContext("2d");
+
+      if (pieChart) pieChart.destroy();
+
+      const labels = candidates.map(c => c.name);
+      const votes = candidates.map(c => c.vote_count || 0);
+      const total = votes.reduce((a, b) => a + b, 0);
+
+      if (total === 0) {
+        document.getElementById("pieChartWrapper").style.display = "none";
+        return;
+      }
+
+      const percentages = votes.map(v => (v / total) * 100);
+
+      pieChart = new Chart(ctx, {
+        type: "pie",
+        data: {
+          labels,
+          datasets: [{
+            data: percentages,
+            backgroundColor: generateColors(votes.length),
+            hoverOffset: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: "bottom" },
+            tooltip: {
+              callbacks: {
+                label: ctx => {
+                  const index = ctx.dataIndex;
+                  return `${ctx.label}: ${votes[index]} votes (${percentages[index].toFixed(1)}%)`;
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function generateColors(count) {
+      const palette = [
+        "#667eea", "#764ba2", "#f093fb", "#f5576c",
+        "#4facfe", "#00f2fe", "#34d399", "#fbbf24"
+      ];
+      return Array.from({ length: count }, (_, i) => palette[i % palette.length]);
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    document.addEventListener("DOMContentLoaded", loadElectionResults);
+  </script>
+</body>
+</html>
