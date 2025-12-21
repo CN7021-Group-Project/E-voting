@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>VoteSecure - Election Detail</title>
-    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
     <link rel="stylesheet" href="../css/election-details.css" />
   </head>
   <body>
@@ -13,12 +13,12 @@
         <div class="topbar-content">
           <div class="left">
             <h2>🗳️ Election</h2>
-            <p class="muted">Review candidates and cast your vote</p>
+            <p class="muted">Review candidates and cast your vote securely</p>
           </div>
           <div class="right">
-            <a href="voter-dashboard.html" class="btn outline"
-              >← Back to Dashboard</a
-            >
+            <a href="voter-dashboard.html" class="btn outline">
+              ← Back to Dashboard
+            </a>
           </div>
         </div>
       </div>
@@ -31,7 +31,8 @@
               Vote for the next student council president.
             </p>
             <div class="meta">
-              Ends: <strong id="electionEnd">20 Dec 2025, 18:00</strong>
+              Ends:
+              <strong id="electionEnd">20 Dec 2025, 18:00</strong>
             </div>
           </div>
         </div>
@@ -49,61 +50,85 @@
 
           <div id="message" class="message"></div>
         </form>
-
-        <div id="resultsArea" class="results-area" style="display: none">
-          <h4>Current Results</h4>
-          <div id="resultsList"></div>
-        </div>
       </div>
 
       <div class="footer-note small muted">
-        Your vote is private.
+        Your vote is private. A one-time code will be sent to your registered
+        email to confirm your vote.
+      </div>
+    </div>
+
+    <!-- OTP modal -->
+    <div id="otpModal" class="otp-modal" style="display:none;">
+      <div class="otp-modal-content">
+        <h3>Confirm Your Vote</h3>
+        <p class="muted">
+          An OTP has been sent to your registered email address. Enter the
+          6‑digit code below to confirm your vote.
+        </p>
+        <input
+          type="text"
+          id="otpInput"
+          maxlength="6"
+          class="otp-input"
+          placeholder="123456"
+        />
+        <div class="otp-hint">
+          Do not share this code with anyone. It expires in 5 minutes.
+        </div>
+        <div class="otp-actions">
+          <button id="otpConfirmBtn" class="btn primary">Verify &amp; Cast</button>
+          <button id="otpCancelBtn" class="btn outline">Cancel</button>
+        </div>
+        <div id="otpMessage" class="message small"></div>
       </div>
     </div>
 
     <script src="../js/api.js"></script>
     <script>
       let election = null;
-      
+      let pendingCandidateId = null;
+
       // Check authentication
       if (!isAuthenticated()) {
-        window.location.href = 'welcome.html';
+        window.location.href = "welcome.html";
       }
-      
+
       // Get election ID from URL parameters
       const urlParams = new URLSearchParams(window.location.search);
-      const electionId = urlParams.get('id');
-      
+      const electionId = urlParams.get("id");
+
       if (!electionId) {
-        alert('No election selected');
-        window.location.href = 'voter-dashboard.html';
+        alert("No election selected");
+        window.location.href = "voter-dashboard.html";
       }
-      
+
       // Load election data from API
       async function loadElection() {
         try {
           const elections = await api.getElections();
-          election = elections.find(e => e.id == electionId);
-          
+          election = elections.find((e) => e.id == electionId);
+
           if (!election) {
-            alert('Election not found');
-            window.location.href = 'voter-dashboard.html';
+            alert("Election not found");
+            window.location.href = "voter-dashboard.html";
             return;
           }
-          
-          // Convert API data format to match existing code
+
+          // Convert API data format
           election.endAt = election.end_date;
-          election.candidates = election.candidates.map(c => ({
+          election.candidates = election.candidates.map((c) => ({
             id: c.id,
             name: c.name,
             description: c.description,
-            votes: c.vote_count || 0
+            // kept internally, never shown
+            votes: c.vote_count || 0,
           }));
-          
+
           renderElectionData();
         } catch (error) {
-          console.error('Error loading election:', error);
-          alert('Error loading election data');
+          console.error("Error loading election:", error);
+          alert("Error loading election data");
         }
       }
 
@@ -111,35 +136,32 @@
       function qs(sel) {
         return document.querySelector(sel);
       }
-      function qsa(sel) {
-        return document.querySelectorAll(sel);
-      }
 
       // Render election info
       function renderElectionData() {
         qs("#electionTitle").textContent = election.title;
-        qs("#electionDesc").textContent = election.description || 'No description';
-        qs("#electionEnd").textContent = new Date(election.endAt).toLocaleString();
-        
+        qs("#electionDesc").textContent =
+          election.description || "No description";
+        qs("#electionEnd").textContent = new Date(
+          election.endAt
+        ).toLocaleString();
+
         renderCandidates();
       }
 
       const container = qs("#candidatesContainer");
-      const resultsArea = qs("#resultsArea");
-      const resultsList = qs("#resultsList");
       const message = qs("#message");
 
       // Check if user already voted
       function hasVoted() {
-        // Check if current user has voted in this election
         const userInfo = getUserInfo();
         if (!userInfo || !election.candidates) return false;
-        
-        // This is a simple check - in production you'd call an API
-        return !!localStorage.getItem(`voted_election_${election.id}_user_${userInfo.userId}`);
+        return !!localStorage.getItem(
+          `voted_election_${election.id}_user_${userInfo.userId}`
+        );
       }
 
-      // Render candidates as radio list
+      // Render candidates as radio list (no vote counts)
       function renderCandidates() {
         container.innerHTML = "";
         election.candidates.forEach((c) => {
@@ -154,83 +176,130 @@
               <div class="cand-name">${escapeHtml(c.name)}</div>
               <div class="cand-desc">${escapeHtml(c.description || "")}</div>
             </div>
-            <div class="cand-votes small muted">${c.votes} votes</div>
           </label>
         `;
           container.appendChild(div);
         });
+
+        if (hasVoted()) {
+          message.textContent =
+            "You have already voted in this election. Thank you for participating.";
+          message.style.color = "green";
+        } else {
+          message.textContent = "";
+        }
       }
 
-      // Render results list (simple)
-      function renderResults() {
-        resultsList.innerHTML = "";
-        election.candidates.forEach((c) => {
-          const row = document.createElement("div");
-          row.className = "result-row";
-          row.innerHTML = `
-          <div class="r-name">${escapeHtml(c.name)}</div>
-          <div class="r-bar"><span style="width:${calcPercent(
-            c.votes
-          )}%"></span></div>
-          <div class="r-count">${c.votes}</div>
-        `;
-          resultsList.appendChild(row);
-        });
-      }
-
-      function calcPercent(v) {
-        const total = election.candidates.reduce((s, x) => s + x.votes, 0) || 1;
-        return Math.round((v / total) * 100);
-      }
-
-      // Vote handler
+      // Vote handler with OTP flow
       qs("#voteForm").addEventListener("submit", async function (e) {
         e.preventDefault();
-        
+
         if (hasVoted()) {
-          message.textContent = "You have already voted in this election.";
+          message.textContent =
+            "You have already voted in this election.";
           message.style.color = "red";
           return;
         }
-        
+
         const sel = document.querySelector('input[name="candidate"]:checked');
         if (!sel) {
           message.textContent = "Select a candidate first.";
           message.style.color = "red";
           return;
         }
-        
-        const candidateId = Number(sel.value);
-        
-        try {
-          // Cast vote via API
-          await api.castVote({
-            electionId: election.id,
-            candidateId: candidateId
-          });
-          
-          const userInfo = getUserInfo();
-          localStorage.setItem(`voted_election_${election.id}_user_${userInfo.userId}`, candidateId);
-          
-          message.textContent = "Vote cast successfully!";
-          message.style.color = "green";
-          
-          // Reload election data to get updated vote counts
-          await loadElection();
-          
 
-          
+        const candidateId = Number(sel.value);
+        pendingCandidateId = candidateId;
+
+        try {
+          message.textContent = "Sending OTP to your email...";
+          message.style.color = "black";
+
+          // Request OTP from backend
+          await api.requestVoteOtp({
+            electionId: election.id,
+          });
+
+          message.textContent = "";
+          openOtpModal();
         } catch (error) {
-          console.error('Error casting vote:', error);
-          message.textContent = "Error casting vote: " + error.message;
+          console.error("Error requesting OTP:", error);
+          message.textContent =
+            "Error sending OTP. Please try again in a moment.";
           message.style.color = "red";
         }
       });
 
+      // OTP modal logic
+      const otpModal = document.getElementById("otpModal");
+      const otpInput = document.getElementById("otpInput");
+      const otpConfirmBtn = document.getElementById("otpConfirmBtn");
+      const otpCancelBtn = document.getElementById("otpCancelBtn");
+      const otpMessage = document.getElementById("otpMessage");
 
+      function openOtpModal() {
+        otpInput.value = "";
+        otpMessage.textContent = "";
+        otpModal.style.display = "flex";
+        otpInput.focus();
+      }
+
+      function closeOtpModal() {
+        otpModal.style.display = "none";
+      }
+
+      otpCancelBtn.addEventListener("click", function () {
+        closeOtpModal();
+      });
+
+      otpConfirmBtn.addEventListener("click", async function () {
+        const code = otpInput.value.trim();
+        if (code.length !== 6) {
+          otpMessage.textContent = "Please enter the 6-digit OTP.";
+          otpMessage.style.color = "red";
+          return;
+        }
+
+        if (!pendingCandidateId) {
+          otpMessage.textContent = "No candidate selected.";
+          otpMessage.style.color = "red";
+          return;
+        }
+
+        try {
+          otpMessage.textContent = "Verifying OTP and casting vote...";
+          otpMessage.style.color = "black";
+
+          await api.verifyOtpAndCastVote({
+            electionId: election.id,
+            candidateId: pendingCandidateId,
+            otp: code,
+          });
+
+          const userInfo = getUserInfo();
+          localStorage.setItem(
+            `voted_election_${election.id}_user_${userInfo.userId}`,
+            pendingCandidateId
+          );
+
+          otpMessage.textContent = "";
+          closeOtpModal();
+
+          message.textContent =
+            "Vote cast successfully! A confirmation email has been sent to your inbox.";
+          message.style.color = "green";
+
+          await loadElection();
+        } catch (error) {
+          console.error("Error verifying OTP / casting vote:", error);
+          otpMessage.textContent =
+            "Invalid or expired OTP. Please check the code and try again.";
+          otpMessage.style.color = "red";
+        }
+      });
 
       // Load election data when page loads
-      document.addEventListener('DOMContentLoaded', loadElection);
+      document.addEventListener("DOMContentLoaded", loadElection);
 
       // utility escape
       function escapeHtml(s) {

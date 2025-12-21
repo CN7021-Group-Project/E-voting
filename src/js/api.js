@@ -32,7 +32,7 @@ class VoteSecureAPI {
 
         try {
             const response = await fetch(url, config);
-            
+
             if (!response.ok) {
                 const errorText = await response.text();
                 let errorMessage;
@@ -44,7 +44,7 @@ class VoteSecureAPI {
                 }
                 throw new Error(errorMessage);
             }
-            
+
             const data = await response.json();
             return data;
         } catch (error) {
@@ -68,11 +68,11 @@ class VoteSecureAPI {
             method: 'POST',
             body: JSON.stringify(credentials)
         });
-        
+
         if (response.token) {
             this.setToken(response.token);
         }
-        
+
         return response;
     }
 
@@ -100,6 +100,26 @@ class VoteSecureAPI {
         return await this.request('/vote', {
             method: 'POST',
             body: JSON.stringify(voteData)
+        });
+    }
+
+    // NEW: request OTP for a vote
+    async requestVoteOtp({ electionId }) {
+        return await this.request('/votes/request-otp', {
+            method: 'POST',
+            body: JSON.stringify({ election_id: electionId })
+        });
+    }
+
+    // NEW: verify OTP and cast the vote
+    async verifyOtpAndCastVote({ electionId, candidateId, otp }) {
+        return await this.request('/votes/verify-otp-and-cast', {
+            method: 'POST',
+            body: JSON.stringify({
+                election_id: electionId,
+                candidate_id: candidateId,
+                otp
+            })
         });
     }
 
