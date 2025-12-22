@@ -76,6 +76,37 @@ CREATE TABLE IF NOT EXISTS blockchain_transactions (
     INDEX idx_type (transaction_type)
 );
 
+CREATE TABLE IF NOT EXISTS otp_codes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  voter_id INT NOT NULL,
+  election_id INT NOT NULL,
+  otp_hash VARCHAR(255) NOT NULL,
+  expires_at DATETIME NOT NULL,
+  used TINYINT(1) DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (voter_id) REFERENCES users(id),
+  FOREIGN KEY (election_id) REFERENCES elections(id) ON DELETE CASCADE,
+  INDEX idx_otp_lookup (voter_id, election_id, used, expires_at)
+);
+
+
+
+CREATE TABLE IF NOT EXISTS audit_log (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  actor_user_id INT NULL,
+  action VARCHAR(64) NOT NULL,
+  election_id INT NULL,
+  candidate_id INT NULL,
+  details JSON NULL,
+  prev_hash VARCHAR(64) NULL,
+  entry_hash VARCHAR(64) NOT NULL,
+  FOREIGN KEY (actor_user_id) REFERENCES users(id),
+  FOREIGN KEY (election_id) REFERENCES elections(id) ON DELETE SET NULL,
+  FOREIGN KEY (candidate_id) REFERENCES candidates(id) ON DELETE SET NULL,
+  INDEX idx_audit_created_at (created_at)
+);
+
 -- Insert sample admin user (password: admin123)
 INSERT IGNORE INTO users (name, email, password_hash, role, blockchain_address) 
 VALUES (
