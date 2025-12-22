@@ -103,6 +103,26 @@ class VoteSecureAPI {
         });
     }
 
+      // NEW: request OTP for a vote
+    async requestVoteOtp({ electionId }) {
+        return await this.request('/votes/request-otp', {
+            method: 'POST',
+            body: JSON.stringify({ election_id: electionId })
+        });
+    }
+
+    // NEW: verify OTP and cast the vote
+    async verifyOtpAndCastVote({ electionId, candidateId, otp }) {
+        return await this.request('/votes/verify-otp-and-cast', {
+            method: 'POST',
+            body: JSON.stringify({
+                election_id: electionId,
+                candidate_id: candidateId,
+                otp
+            })
+        });
+    }
+
     async getVoters() {
         return await this.request('/voters');
     }
