@@ -1,4 +1,4 @@
-# VoteSecure - Blockchain-Based Electronic Voting System
+# E-Voting - Blockchain-Based Electronic Voting System
 
 A secure, transparent, and decentralized voting platform built with Node.js, MySQL, and blockchain technology.
 

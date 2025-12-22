@@ -1,0 +1,1001 @@
+election_id,title,num_candidates,duration_days,total_registered_voters,total_votes,turnout_ratio,turnout_high
+Doyle, Kuphal and Kuphal,2,284,1000,364.0,0.364,0.0
+Pouros Group,7,573,1000,591,0.591,0.0,0.0
+Rohan, Ondricka and Davis,8,381,1000,691.0,0.691,1.0
+Fay, Windler and Larson,3,162,1000,203.0,0.203,0.0
+Ziemann - Beier,2,535,1000,602,0.602,1.0,0.0
+Beer - Lemke,8,193,1000,672,0.672,1.0,0.0
+Howell - Hand,6,379,1000,257,0.257,0.0,0.0
+Muller Group,5,253,1000,607,0.607,1.0,0.0
+McDermott LLC,8,424,1000,912,0.912,1.0,0.0
+Schmitt LLC,4,439,1000,479,0.479,0.0,0.0
+Rempel, Grimes and White,2,109,1000,215.0,0.215,0.0
+Blanda - Cummings,5,428,1000,189,0.189,0.0,0.0
+Langworth LLC,5,188,1000,212,0.212,0.0,0.0
+Bruen and Sons,8,75,1000,887,0.887,1.0,0.0
+Robel - Reinger,6,458,1000,140,0.14,0.0,0.0
+Runolfsdottir - Green,5,444,1000,931,0.931,1.0,0.0
+Robel, Kautzer and Volkman,2,393,1000,274.0,0.274,0.0
+Jaskolski, Langworth and Dickens,2,363,1000,579.0,0.579,0.0
+Wunsch, Klein and Morissette,5,359,1000,132.0,0.132,0.0
+Klocko and Sons,2,378,1000,285,0.285,0.0,0.0
+Schinner LLC,4,504,1000,408,0.408,0.0,0.0
+Rodriguez, Auer and Hauck,2,366,1000,289.0,0.289,0.0
+Huels, Cummerata and Wuckert,4,319,1000,139.0,0.139,0.0
+Bergnaum - Feil,2,363,1000,653,0.653,1.0,0.0
+Rau, Gerlach and Schulist,8,478,1000,569.0,0.569,0.0
+Nolan LLC,6,605,1000,620,0.62,1.0,0.0
+D'Amore - Bartoletti,4,472,1000,617,0.617,1.0,0.0
+Orn - Gutkowski,2,399,1000,861,0.861,1.0,0.0
+Wolff Inc,6,496,1000,786,0.786,1.0,0.0
+Stoltenberg - Hilll,7,379,1000,869,0.869,1.0,0.0
+Walsh, Mante and Blanda,7,219,1000,174.0,0.174,0.0
+Mann, Mante and Hane,5,429,1000,528.0,0.528,0.0
+Breitenberg LLC,6,672,1000,252,0.252,0.0,0.0
+Lowe Group,5,370,1000,910,0.91,1.0,0.0
+Von Inc,7,249,1000,209,0.209,0.0,0.0
+Kovacek - Franey,8,416,1000,692,0.692,1.0,0.0
+Williamson, Berge and Langworth,4,429,1000,372.0,0.372,0.0
+Casper - Witting,2,603,1000,356,0.356,0.0,0.0
+Franey Group,5,123,1000,249,0.249,0.0,0.0
+Mraz, Ankunding and Effertz,7,32,1000,335.0,0.335,0.0
+Purdy, Walsh and O'Conner,7,542,1000,313.0,0.313,0.0
+Hahn, Erdman and Rogahn,4,561,1000,101.0,0.101,0.0
+Hyatt - Schuster,6,261,1000,832,0.832,1.0,0.0
+Rohan, Flatley and Mosciski,5,165,1000,102.0,0.102,0.0
+Veum, Sipes and Jones,2,615,1000,803.0,0.803,1.0
+Dietrich Inc,7,158,1000,366,0.366,0.0,0.0
+Collins and Sons,2,463,1000,217,0.217,0.0,0.0
+Huels and Sons,3,307,1000,186,0.186,0.0,0.0
+Trantow, Keeling and Monahan,7,460,1000,357.0,0.357,0.0
+Hilll Group,2,513,1000,534,0.534,0.0,0.0
+Bogisich - O'Conner,8,131,1000,409,0.409,0.0,0.0
+Zieme - Simonis,6,152,1000,698,0.698,1.0,0.0
+Metz, Frami and Waters,8,583,1000,175.0,0.175,0.0
+Nicolas, Kreiger and Jaskolski,4,392,1000,244.0,0.244,0.0
+Pagac - Effertz,8,148,1000,287,0.287,0.0,0.0
+Hessel, Cartwright and Auer,6,486,1000,285.0,0.285,0.0
+McKenzie - Steuber,8,515,1000,102,0.102,0.0,0.0
+Simonis, Dicki and Dietrich,5,451,1000,288.0,0.288,0.0
+Konopelski, Kulas and Roob,8,465,1000,319.0,0.319,0.0
+King LLC,6,424,1000,112,0.112,0.0,0.0
+Kling - Hodkiewicz,8,333,1000,937,0.937,1.0,0.0
+Stroman - Gusikowski,2,424,1000,633,0.633,1.0,0.0
+McCullough - Shields,2,140,1000,325,0.325,0.0,0.0
+Marquardt and Sons,8,345,1000,437,0.437,0.0,0.0
+Hahn - Jenkins,7,251,1000,889,0.889,1.0,0.0
+Wilkinson - Metz,8,544,1000,295,0.295,0.0,0.0
+Dibbert Inc,6,239,1000,679,0.679,1.0,0.0
+Rosenbaum - Kub,2,384,1000,378,0.378,0.0,0.0
+Bahringer, Dickens and Schimmel,8,192,1000,565.0,0.565,0.0
+Romaguera - Pacocha,7,604,1000,346,0.346,0.0,0.0
+Walker - Watsica,4,218,1000,327,0.327,0.0,0.0
+Nicolas - Hahn,4,209,1000,887,0.887,1.0,0.0
+Boyer Group,5,276,1000,281,0.281,0.0,0.0
+Kirlin, Bartoletti and Littel,3,137,1000,169.0,0.169,0.0
+Stracke - Lakin,6,228,1000,771,0.771,1.0,0.0
+McClure, Koelpin and Nader,8,618,1000,831.0,0.831,1.0
+Padberg Group,6,718,1000,509,0.509,0.0,0.0
+Lynch - Carroll,5,461,1000,608,0.608,1.0,0.0
+Predovic - Spencer,3,426,1000,447,0.447,0.0,0.0
+Roob - Becker,7,295,1000,284,0.284,0.0,0.0
+Willms Inc,5,559,1000,541,0.541,0.0,0.0
+Hessel, Larson and Mayert,7,425,1000,540.0,0.54,0.0
+Dietrich LLC,6,561,1000,208,0.208,0.0,0.0
+Mueller - Johns,3,293,1000,229,0.229,0.0,0.0
+Wisozk, Mann and Welch,6,533,1000,297.0,0.297,0.0
+Mante LLC,2,132,1000,115,0.115,0.0,0.0
+Donnelly Group,2,228,1000,116,0.116,0.0,0.0
+Hoppe Inc,4,493,1000,316,0.316,0.0,0.0
+Reichel, Beahan and Kovacek,8,320,1000,108.0,0.108,0.0
+O'Hara, Goldner and Ankunding,7,385,1000,355.0,0.355,0.0
+Pouros, Schaden and Altenwerth,3,340,1000,155.0,0.155,0.0
+Howe - Greenholt,4,453,1000,209,0.209,0.0,0.0
+Prosacco, Klocko and Murphy,6,146,1000,272.0,0.272,0.0
+Keebler - Moore,4,459,1000,382,0.382,0.0,0.0
+Tillman, Nitzsche and Dare,5,253,1000,314.0,0.314,0.0
+Cremin - Stiedemann,6,244,1000,886,0.886,1.0,0.0
+Botsford and Sons,7,603,1000,542,0.542,0.0,0.0
+Koch - Rempel,4,116,1000,177,0.177,0.0,0.0
+Gleichner, Dickens and Morissette,3,351,1000,230.0,0.23,0.0
+Bergnaum Group,7,33,1000,536,0.536,0.0,0.0
+Greenholt - Cruickshank,8,298,1000,444,0.444,0.0,0.0
+Wunsch - Welch,4,370,1000,768,0.768,1.0,0.0
+Paucek and Sons,3,361,1000,178,0.178,0.0,0.0
+Stehr Group,5,232,1000,498,0.498,0.0,0.0
+Morissette, McKenzie and Glover,4,525,1000,282.0,0.282,0.0
+Kuhlman - Rodriguez,3,469,1000,341,0.341,0.0,0.0
+Schumm Group,7,405,1000,135,0.135,0.0,0.0
+Hoeger and Sons,8,495,1000,658,0.658,1.0,0.0
+Lemke - Mueller,5,217,1000,565,0.565,0.0,0.0
+DuBuque LLC,7,676,1000,938,0.938,1.0,0.0
+Auer Group,7,556,1000,176,0.176,0.0,0.0
+Conroy - Kling,7,319,1000,596,0.596,0.0,0.0
+Volkman, Pouros and Stark,3,307,1000,654.0,0.654,1.0
+O'Reilly and Sons,3,154,1000,467,0.467,0.0,0.0
+Huels, Larson and Turner,5,344,1000,444.0,0.444,0.0
+Bechtelar - Batz,4,461,1000,656,0.656,1.0,0.0
+Pouros, Bins and Fadel,5,318,1000,148.0,0.148,0.0
+Jones - Wolf,6,161,1000,575,0.575,0.0,0.0
+Nitzsche Group,2,393,1000,379,0.379,0.0,0.0
+Jakubowski and Sons,8,501,1000,319,0.319,0.0,0.0
+Zemlak - Pfannerstill,5,477,1000,233,0.233,0.0,0.0
+Windler LLC,4,442,1000,265,0.265,0.0,0.0
+Fisher - King,2,380,1000,262,0.262,0.0,0.0
+Kutch - Howell,8,355,1000,103,0.103,0.0,0.0
+Paucek - Wyman,4,504,1000,917,0.917,1.0,0.0
+Morar, Ritchie and Daniel,6,477,1000,668.0,0.668,1.0
+Heller Inc,2,132,1000,266,0.266,0.0,0.0
+Williamson - Ward,8,125,1000,337,0.337,0.0,0.0
+Blanda Group,8,338,1000,402,0.402,0.0,0.0
+Predovic Inc,3,355,1000,554,0.554,0.0,0.0
+Crooks - O'Keefe,4,309,1000,447,0.447,0.0,0.0
+Pouros, Fadel and Hamill,4,257,1000,564.0,0.564,0.0
+D'Amore - Emmerich,5,439,1000,529,0.529,0.0,0.0
+Roberts - DuBuque,2,91,1000,531,0.531,0.0,0.0
+Hauck, Swift and Hoeger,5,257,1000,893.0,0.893,1.0
+Treutel - Moore,4,412,1000,472,0.472,0.0,0.0
+Schaden - Murray,5,84,1000,790,0.79,1.0,0.0
+Wilderman - Nader,6,481,1000,673,0.673,1.0,0.0
+Wehner - Parker,5,206,1000,127,0.127,0.0,0.0
+Feil and Sons,5,633,1000,406,0.406,0.0,0.0
+Schowalter, Breitenberg and Lemke,6,452,1000,810.0,0.81,1.0
+Wiegand Group,5,269,1000,459,0.459,0.0,0.0
+Kilback, Walker and Klein,2,415,1000,559.0,0.559,0.0
+Robel, Feil and Jerde,8,412,1000,779.0,0.779,1.0
+Lynch - Steuber,4,232,1000,332,0.332,0.0,0.0
+Hodkiewicz, Sanford and Carroll,7,332,1000,263.0,0.263,0.0
+Quigley Group,6,176,1000,719,0.719,1.0,0.0
+Farrell, Carter and Lehner,6,526,1000,496.0,0.496,0.0
+Berge, Littel and Kling,4,347,1000,318.0,0.318,0.0
+Schumm - Veum,2,302,1000,680,0.68,1.0,0.0
+Muller, Witting and Davis,8,215,1000,323.0,0.323,0.0
+Stracke - Lueilwitz,5,315,1000,199,0.199,0.0,0.0
+Cruickshank Inc,3,372,1000,590,0.59,0.0,0.0
+Littel Group,6,393,1000,266,0.266,0.0,0.0
+Braun, Cassin and Breitenberg,4,459,1000,739.0,0.739,1.0
+Gusikowski and Sons,7,648,1000,451,0.451,0.0,0.0
+DuBuque - Wilderman,6,470,1000,944,0.944,1.0,0.0
+Mertz, Koepp and Mraz,7,320,1000,225.0,0.225,0.0
+Connelly LLC,4,451,1000,124,0.124,0.0,0.0
+Carroll Inc,7,246,1000,309,0.309,0.0,0.0
+Parisian - Padberg,3,434,1000,245,0.245,0.0,0.0
+Fisher, Lynch and Abernathy,8,644,1000,189.0,0.189,0.0
+Cummings Group,2,479,1000,463,0.463,0.0,0.0
+Raynor - Lubowitz,6,353,1000,385,0.385,0.0,0.0
+Cremin and Sons,5,388,1000,378,0.378,0.0,0.0
+Schroeder LLC,7,478,1000,755,0.755,1.0,0.0
+Stroman - Murazik,6,341,1000,454,0.454,0.0,0.0
+Medhurst LLC,4,208,1000,137,0.137,0.0,0.0
+McDermott LLC,3,532,1000,423,0.423,0.0,0.0
+Friesen - Schinner,2,713,1000,238,0.238,0.0,0.0
+Auer - Shields,2,630,1000,544,0.544,0.0,0.0
+Casper, Hessel and Nitzsche,8,235,1000,257.0,0.257,0.0
+Kautzer and Sons,7,401,1000,284,0.284,0.0,0.0
+Corwin Inc,8,257,1000,673,0.673,1.0,0.0
+Krajcik Group,7,455,1000,107,0.107,0.0,0.0
+Ebert LLC,5,291,1000,168,0.168,0.0,0.0
+Nikolaus - Mertz,4,411,1000,395,0.395,0.0,0.0
+Grant - Koss,2,286,1000,171,0.171,0.0,0.0
+Pfannerstill Inc,6,379,1000,893,0.893,1.0,0.0
+Satterfield, Lakin and Will,2,459,1000,159.0,0.159,0.0
+Wisozk - Kertzmann,6,221,1000,164,0.164,0.0,0.0
+Gottlieb - Gibson,7,292,1000,342,0.342,0.0,0.0
+Tromp and Sons,7,61,1000,276,0.276,0.0,0.0
+Fritsch, Conroy and Goyette,6,492,1000,392.0,0.392,0.0
+Runolfsson, Boehm and Jones,6,473,1000,226.0,0.226,0.0
+Waelchi Group,7,58,1000,898,0.898,1.0,0.0
+O'Connell - Trantow,4,127,1000,297,0.297,0.0,0.0
+Ferry Inc,8,544,1000,304,0.304,0.0,0.0
+Mills LLC,2,34,1000,317,0.317,0.0,0.0
+Metz, Schiller and Altenwerth,3,182,1000,704.0,0.704,1.0
+Quigley Group,4,434,1000,267,0.267,0.0,0.0
+Murazik LLC,7,67,1000,390,0.39,0.0,0.0
+Greenholt, Bruen and Keeling,2,645,1000,576.0,0.576,0.0
+Rohan - Keeling,5,481,1000,204,0.204,0.0,0.0
+Dooley, Quigley and Schimmel,5,494,1000,644.0,0.644,1.0
+Ward and Sons,2,172,1000,174,0.174,0.0,0.0
+Balistreri - VonRueden,6,495,1000,417,0.417,0.0,0.0
+Watsica and Sons,8,562,1000,162,0.162,0.0,0.0
+Kutch and Sons,6,560,1000,641,0.641,1.0,0.0
+Denesik Group,2,425,1000,431,0.431,0.0,0.0
+Waelchi, Lemke and Leffler,7,215,1000,108.0,0.108,0.0
+Schaefer - Mertz,8,248,1000,330,0.33,0.0,0.0
+Marvin Group,4,442,1000,344,0.344,0.0,0.0
+Kassulke - Witting,3,285,1000,604,0.604,1.0,0.0
+Kunze, Crist and Rolfson,8,271,1000,762.0,0.762,1.0
+Hills, Blanda and Lueilwitz,6,231,1000,190.0,0.19,0.0
+Boyle, Volkman and Jakubowski,8,638,1000,506.0,0.506,0.0
+Mayer - Tillman,4,471,1000,370,0.37,0.0,0.0
+Rempel, Schmeler and Parisian,3,469,1000,573.0,0.573,0.0
+Daugherty - Hilpert,6,472,1000,207,0.207,0.0,0.0
+Howell - Borer,7,138,1000,643,0.643,1.0,0.0
+Fahey, Anderson and Hodkiewicz,7,315,1000,553.0,0.553,0.0
+Kautzer, Bode and Kemmer,2,399,1000,523.0,0.523,0.0
+Treutel - Schroeder,3,415,1000,354,0.354,0.0,0.0
+Durgan, Ratke and Hayes,7,68,1000,257.0,0.257,0.0
+Bashirian - Hermann,8,453,1000,183,0.183,0.0,0.0
+Okuneva - Ortiz,2,496,1000,446,0.446,0.0,0.0
+Rosenbaum, Dibbert and Runolfsdottir,7,354,1000,268.0,0.268,0.0
+Anderson - Simonis,8,472,1000,850,0.85,1.0,0.0
+Kiehn - Reilly,5,181,1000,317,0.317,0.0,0.0
+Stamm, Windler and Jerde,5,661,1000,430.0,0.43,0.0
+Lind, Mayer and Block,5,401,1000,495.0,0.495,0.0
+Kuhn and Sons,6,323,1000,495,0.495,0.0,0.0
+Lockman - Ferry,4,347,1000,614,0.614,1.0,0.0
+Zboncak, Barrows and Ferry,2,297,1000,133.0,0.133,0.0
+Jacobi, Konopelski and Marquardt,4,623,1000,161.0,0.161,0.0
+Hegmann - Bartell,8,200,1000,745,0.745,1.0,0.0
+Ruecker Group,2,247,1000,871,0.871,1.0,0.0
+Howe - Cole,8,352,1000,891,0.891,1.0,0.0
+Kihn Group,4,135,1000,179,0.179,0.0,0.0
+Zboncak - Reinger,6,583,1000,122,0.122,0.0,0.0
+Stanton Group,7,406,1000,220,0.22,0.0,0.0
+Schneider, Hoeger and Kemmer,7,101,1000,509.0,0.509,0.0
+Schoen Inc,6,461,1000,742,0.742,1.0,0.0
+Robel - Paucek,8,239,1000,141,0.141,0.0,0.0
+Kozey and Sons,3,158,1000,131,0.131,0.0,0.0
+Schultz, Williamson and Senger,7,48,1000,844.0,0.844,1.0
+Mante - Gerlach,7,189,1000,460,0.46,0.0,0.0
+Hayes - Stokes,8,447,1000,287,0.287,0.0,0.0
+Kertzmann, Franey and Sauer,2,467,1000,171.0,0.171,0.0
+Miller and Sons,6,225,1000,647,0.647,1.0,0.0
+Cremin - Beier,5,211,1000,301,0.301,0.0,0.0
+Marks, Miller and Wehner,4,456,1000,244.0,0.244,0.0
+Shanahan - Barton,7,142,1000,396,0.396,0.0,0.0
+Ebert LLC,2,227,1000,613,0.613,1.0,0.0
+Treutel Group,8,406,1000,361,0.361,0.0,0.0
+Heidenreich, Halvorson and Halvorson,7,100,1000,197.0,0.197,0.0
+Beahan, Blanda and Veum,3,250,1000,274.0,0.274,0.0
+Rau - Prohaska,4,399,1000,167,0.167,0.0,0.0
+Kiehn LLC,8,248,1000,147,0.147,0.0,0.0
+Gleichner, Powlowski and Barrows,7,533,1000,928.0,0.928,1.0
+Quigley and Sons,8,253,1000,432,0.432,0.0,0.0
+Rowe - Romaguera,5,48,1000,112,0.112,0.0,0.0
+Raynor, King and Nitzsche,3,256,1000,314.0,0.314,0.0
+Kilback, Spinka and Rath,8,377,1000,502.0,0.502,0.0
+Bechtelar, Lakin and Pfeffer,4,305,1000,543.0,0.543,0.0
+Gutkowski, Kuhlman and Schroeder,2,451,1000,226.0,0.226,0.0
+Jakubowski - Reinger,2,330,1000,243,0.243,0.0,0.0
+Toy, Lakin and Homenick,4,417,1000,693.0,0.693,1.0
+Tromp, Batz and Kub,2,301,1000,611.0,0.611,1.0
+Gutkowski - Daugherty,5,375,1000,209,0.209,0.0,0.0
+Vandervort, DuBuque and Stehr,3,528,1000,395.0,0.395,0.0
+Nicolas and Sons,8,424,1000,877,0.877,1.0,0.0
+O'Conner LLC,7,387,1000,326,0.326,0.0,0.0
+Hagenes - Franecki,8,70,1000,180,0.18,0.0,0.0
+Mayert Inc,5,255,1000,610,0.61,1.0,0.0
+Wuckert - Hilpert,7,272,1000,452,0.452,0.0,0.0
+Herzog Inc,8,270,1000,347,0.347,0.0,0.0
+Bailey - Zulauf,8,325,1000,877,0.877,1.0,0.0
+Ferry - Pollich,8,359,1000,170,0.17,0.0,0.0
+Schinner - Kunde,3,310,1000,563,0.563,0.0,0.0
+Dietrich - Fahey,2,553,1000,100,0.1,0.0,0.0
+Harris and Sons,4,480,1000,505,0.505,0.0,0.0
+Turcotte, Hegmann and Hermann,5,546,1000,612.0,0.612,1.0
+Raynor - Bayer,6,532,1000,230,0.23,0.0,0.0
+Schowalter Group,7,403,1000,502,0.502,0.0,0.0
+Prosacco, Kulas and Powlowski,3,477,1000,205.0,0.205,0.0
+Cruickshank, Jenkins and Kuphal,3,487,1000,457.0,0.457,0.0
+Zboncak LLC,6,283,1000,179,0.179,0.0,0.0
+Grady - Hintz,4,312,1000,230,0.23,0.0,0.0
+Friesen, Gusikowski and Cartwright,6,237,1000,558.0,0.558,0.0
+Rice, Kiehn and Quitzon,6,497,1000,232.0,0.232,0.0
+Pouros - Watsica,4,48,1000,184,0.184,0.0,0.0
+Murphy - Dibbert,6,306,1000,887,0.887,1.0,0.0
+Steuber, Waters and Steuber,6,576,1000,191.0,0.191,0.0
+Sawayn - McLaughlin,4,406,1000,440,0.44,0.0,0.0
+Langosh, Hegmann and Armstrong,3,227,1000,856.0,0.856,1.0
+Howell, Nikolaus and Bashirian,4,468,1000,353.0,0.353,0.0
+Dare LLC,4,622,1000,307,0.307,0.0,0.0
+Zulauf, Crooks and Reichert,8,305,1000,200.0,0.2,0.0
+Borer, Windler and Jast,2,422,1000,262.0,0.262,0.0
+Thiel, Koch and Trantow,7,608,1000,319.0,0.319,0.0
+Nader - Murazik,3,517,1000,798,0.798,1.0,0.0
+Haley Inc,5,423,1000,420,0.42,0.0,0.0
+Harvey, Boyer and Hayes,5,329,1000,723.0,0.723,1.0
+Crona and Sons,3,402,1000,197,0.197,0.0,0.0
+Larson, Waelchi and Thiel,8,455,1000,222.0,0.222,0.0
+Toy, Kulas and Okuneva,3,188,1000,169.0,0.169,0.0
+Muller Inc,7,380,1000,805,0.805,1.0,0.0
+Flatley and Sons,6,277,1000,633,0.633,1.0,0.0
+Kassulke - Pollich,6,308,1000,811,0.811,1.0,0.0
+Schroeder, Mayer and Moen,2,488,1000,266.0,0.266,0.0
+Weissnat Inc,4,106,1000,931,0.931,1.0,0.0
+Shanahan - Dietrich,5,254,1000,343,0.343,0.0,0.0
+Shanahan - Ankunding,6,404,1000,269,0.269,0.0,0.0
+Greenholt - Thiel,6,394,1000,766,0.766,1.0,0.0
+Thompson - Steuber,4,210,1000,876,0.876,1.0,0.0
+Wisoky, Stiedemann and Pouros,6,77,1000,627.0,0.627,1.0
+Morissette, Bashirian and Walker,6,318,1000,289.0,0.289,0.0
+Jenkins, Bernier and Jerde,7,337,1000,548.0,0.548,0.0
+Walsh - Botsford,5,298,1000,645,0.645,1.0,0.0
+O'Conner Inc,8,523,1000,261,0.261,0.0,0.0
+Grady - Greenholt,7,428,1000,183,0.183,0.0,0.0
+Wisozk - Schmidt,5,211,1000,136,0.136,0.0,0.0
+Schaden LLC,4,386,1000,274,0.274,0.0,0.0
+Schowalter, Beatty and Harris,5,601,1000,381.0,0.381,0.0
+Rolfson Inc,7,297,1000,456,0.456,0.0,0.0
+Schultz - Reinger,8,416,1000,103,0.103,0.0,0.0
+Altenwerth Group,8,119,1000,830,0.83,1.0,0.0
+McCullough LLC,8,233,1000,417,0.417,0.0,0.0
+Spencer - Streich,5,338,1000,906,0.906,1.0,0.0
+Purdy - Hackett,5,487,1000,915,0.915,1.0,0.0
+Funk, Klocko and Harber,3,206,1000,558.0,0.558,0.0
+Nader - Hilpert,3,434,1000,866,0.866,1.0,0.0
+Altenwerth, Frami and Williamson,6,564,1000,162.0,0.162,0.0
+Gutkowski Group,8,374,1000,209,0.209,0.0,0.0
+Yost - McKenzie,6,436,1000,858,0.858,1.0,0.0
+Rath - Donnelly,5,713,1000,940,0.94,1.0,0.0
+Waelchi and Sons,7,279,1000,476,0.476,0.0,0.0
+Hilll and Sons,4,412,1000,682,0.682,1.0,0.0
+Turcotte - Rippin,8,29,1000,550,0.55,0.0,0.0
+Conn, Brown and Langworth,5,507,1000,885.0,0.885,1.0
+Corkery - Langworth,5,217,1000,234,0.234,0.0,0.0
+D'Amore, Batz and Kertzmann,6,222,1000,843.0,0.843,1.0
+Kautzer, Donnelly and Luettgen,7,121,1000,115.0,0.115,0.0
+Crooks Group,2,564,1000,125,0.125,0.0,0.0
+Stroman Group,8,136,1000,579,0.579,0.0,0.0
+Swift, Hahn and Schinner,8,220,1000,198.0,0.198,0.0
+Lakin, Mosciski and Oberbrunner,7,389,1000,556.0,0.556,0.0
+Conn, Simonis and Rath,8,254,1000,209.0,0.209,0.0
+Upton LLC,8,379,1000,306,0.306,0.0,0.0
+Abernathy - Miller,4,469,1000,256,0.256,0.0,0.0
+McLaughlin - Homenick,5,521,1000,278,0.278,0.0,0.0
+Feeney Inc,2,612,1000,183,0.183,0.0,0.0
+Wisoky, Bayer and Spinka,4,134,1000,126.0,0.126,0.0
+Welch, Hartmann and Rodriguez,2,411,1000,639.0,0.639,1.0
+Oberbrunner - Balistreri,4,235,1000,201,0.201,0.0,0.0
+Hayes - West,7,337,1000,929,0.929,1.0,0.0
+Gutkowski Group,7,370,1000,103,0.103,0.0,0.0
+Bartell, Nader and Hettinger,2,477,1000,288.0,0.288,0.0
+Okuneva - Rolfson,6,143,1000,561,0.561,0.0,0.0
+Stoltenberg, Goldner and Schiller,6,479,1000,184.0,0.184,0.0
+Heller, Schulist and Pouros,6,527,1000,100.0,0.1,0.0
+Ferry LLC,6,111,1000,296,0.296,0.0,0.0
+Wisozk Group,7,363,1000,771,0.771,1.0,0.0
+Rempel, Schmidt and Lynch,4,336,1000,505.0,0.505,0.0
+O'Keefe - Kohler,5,232,1000,825,0.825,1.0,0.0
+Howe - VonRueden,8,174,1000,175,0.175,0.0,0.0
+Dietrich and Sons,3,167,1000,441,0.441,0.0,0.0
+Kshlerin, Ferry and Thiel,7,475,1000,311.0,0.311,0.0
+Bradtke - Rippin,3,134,1000,266,0.266,0.0,0.0
+Goyette LLC,3,145,1000,419,0.419,0.0,0.0
+Berge, Runolfsdottir and West,3,362,1000,370.0,0.37,0.0
+Frami - Howell,8,547,1000,797,0.797,1.0,0.0
+Rempel - Littel,4,174,1000,374,0.374,0.0,0.0
+Schuster, Rutherford and Upton,7,143,1000,118.0,0.118,0.0
+Wilkinson - Ritchie,5,380,1000,233,0.233,0.0,0.0
+Donnelly - Bartell,5,459,1000,915,0.915,1.0,0.0
+Okuneva, Halvorson and Franey,5,404,1000,235.0,0.235,0.0
+Stiedemann Inc,5,166,1000,369,0.369,0.0,0.0
+Tillman, Weissnat and Douglas,8,278,1000,636.0,0.636,1.0
+White - Olson,2,420,1000,277,0.277,0.0,0.0
+Pfeffer, Huel and Rippin,3,100,1000,171.0,0.171,0.0
+Carroll, Kulas and Satterfield,5,347,1000,276.0,0.276,0.0
+Parisian, Ondricka and Oberbrunner,4,429,1000,747.0,0.747,1.0
+Rosenbaum, Smitham and Brown,8,268,1000,495.0,0.495,0.0
+Rosenbaum, Heaney and Dicki,4,444,1000,245.0,0.245,0.0
+Stroman - Stoltenberg,6,458,1000,309,0.309,0.0,0.0
+Rau Inc,5,111,1000,838,0.838,1.0,0.0
+Harvey - O'Kon,3,399,1000,118,0.118,0.0,0.0
+Feil - Smitham,2,305,1000,474,0.474,0.0,0.0
+D'Amore and Sons,3,130,1000,912,0.912,1.0,0.0
+Satterfield - Wolff,6,283,1000,305,0.305,0.0,0.0
+Erdman - Weimann,2,221,1000,919,0.919,1.0,0.0
+Dare Inc,6,170,1000,324,0.324,0.0,0.0
+Bode, Braun and Osinski,2,471,1000,675.0,0.675,1.0
+Sauer - Krajcik,3,150,1000,165,0.165,0.0,0.0
+Schmidt and Sons,2,568,1000,923,0.923,1.0,0.0
+Crist - Abbott,6,617,1000,175,0.175,0.0,0.0
+Flatley, Collins and Fritsch,5,351,1000,217.0,0.217,0.0
+Beer - DuBuque,4,679,1000,317,0.317,0.0,0.0
+Collins - Homenick,7,408,1000,675,0.675,1.0,0.0
+Johns Inc,2,503,1000,842,0.842,1.0,0.0
+Frami, Sipes and Wisozk,8,597,1000,102.0,0.102,0.0
+Gottlieb LLC,3,380,1000,571,0.571,0.0,0.0
+Altenwerth, Spinka and Ernser,7,372,1000,329.0,0.329,0.0
+Walsh, Ruecker and Schinner,2,677,1000,779.0,0.779,1.0
+Turcotte Inc,7,160,1000,444,0.444,0.0,0.0
+Batz, Bogisich and Lindgren,3,374,1000,320.0,0.32,0.0
+Ferry, Nienow and Balistreri,2,365,1000,233.0,0.233,0.0
+Kunde, Daugherty and Leffler,5,266,1000,180.0,0.18,0.0
+Will - Kris,2,254,1000,207,0.207,0.0,0.0
+Rath - Morissette,8,362,1000,185,0.185,0.0,0.0
+Bradtke - Gibson,8,333,1000,187,0.187,0.0,0.0
+Mraz - Thompson,3,91,1000,203,0.203,0.0,0.0
+Harvey, Marvin and Blanda,7,359,1000,163.0,0.163,0.0
+Swift, Purdy and Littel,4,621,1000,182.0,0.182,0.0
+Heller LLC,3,323,1000,390,0.39,0.0,0.0
+Effertz - Labadie,8,348,1000,876,0.876,1.0,0.0
+Kreiger - Murazik,4,271,1000,535,0.535,0.0,0.0
+Crona - Funk,2,439,1000,617,0.617,1.0,0.0
+Gorczany - Schinner,8,356,1000,264,0.264,0.0,0.0
+Kuhn LLC,4,375,1000,231,0.231,0.0,0.0
+Shanahan, Parisian and Miller,2,177,1000,142.0,0.142,0.0
+Bins - Lakin,4,451,1000,245,0.245,0.0,0.0
+Greenfelder Inc,6,421,1000,301,0.301,0.0,0.0
+Kihn Group,5,250,1000,356,0.356,0.0,0.0
+Bernier - Padberg,2,441,1000,686,0.686,1.0,0.0
+Metz Group,7,184,1000,548,0.548,0.0,0.0
+Gottlieb, Hermiston and Hodkiewicz,3,123,1000,480.0,0.48,0.0
+Kuphal - Hartmann,7,386,1000,892,0.892,1.0,0.0
+Lubowitz, Rice and Kohler,7,184,1000,290.0,0.29,0.0
+Haag, Tromp and Schinner,2,484,1000,336.0,0.336,0.0
+Gusikowski, Lindgren and Mayert,6,522,1000,174.0,0.174,0.0
+Kozey - Kovacek,4,627,1000,153,0.153,0.0,0.0
+Kuphal LLC,4,594,1000,711,0.711,1.0,0.0
+Conn Group,3,280,1000,587,0.587,0.0,0.0
+Reichel, Gerhold and Johns,8,427,1000,143.0,0.143,0.0
+Haag, Medhurst and Davis,8,146,1000,137.0,0.137,0.0
+Carter Inc,6,236,1000,442,0.442,0.0,0.0
+Harris, Stokes and Daniel,5,451,1000,182.0,0.182,0.0
+Denesik - Veum,4,521,1000,800,0.8,1.0,0.0
+Schmitt Group,7,157,1000,339,0.339,0.0,0.0
+Beatty, Satterfield and Huel,2,340,1000,307.0,0.307,0.0
+Klocko, Miller and Dibbert,2,114,1000,312.0,0.312,0.0
+Gottlieb, Aufderhar and Shanahan,2,389,1000,606.0,0.606,1.0
+Orn and Sons,6,422,1000,646,0.646,1.0,0.0
+Hane, Kuphal and Klocko,4,139,1000,106.0,0.106,0.0
+Sipes - Ferry,3,518,1000,496,0.496,0.0,0.0
+Bernhard and Sons,6,249,1000,249,0.249,0.0,0.0
+McKenzie LLC,5,473,1000,347,0.347,0.0,0.0
+Emard Inc,2,395,1000,103,0.103,0.0,0.0
+Johnston - O'Hara,7,546,1000,318,0.318,0.0,0.0
+Reichel, Zieme and Farrell,4,356,1000,350.0,0.35,0.0
+Schowalter - Ryan,8,395,1000,270,0.27,0.0,0.0
+McCullough, Gislason and Koelpin,5,482,1000,183.0,0.183,0.0
+Hegmann - Mitchell,7,304,1000,237,0.237,0.0,0.0
+O'Conner Inc,2,536,1000,329,0.329,0.0,0.0
+Douglas Group,7,423,1000,285,0.285,0.0,0.0
+Terry - Senger,5,548,1000,286,0.286,0.0,0.0
+Stroman - Leffler,8,487,1000,784,0.784,1.0,0.0
+Wyman, Halvorson and McLaughlin,4,360,1000,196.0,0.196,0.0
+MacGyver Inc,6,398,1000,174,0.174,0.0,0.0
+Bruen - Jacobson,8,549,1000,891,0.891,1.0,0.0
+Kreiger, Brekke and Kuhlman,8,611,1000,861.0,0.861,1.0
+Wehner, Oberbrunner and Kautzer,6,408,1000,126.0,0.126,0.0
+Cruickshank - Flatley,7,307,1000,338,0.338,0.0,0.0
+Purdy Inc,7,367,1000,159,0.159,0.0,0.0
+Wuckert, Trantow and Trantow,8,384,1000,648.0,0.648,1.0
+Moore - Grant,4,367,1000,862,0.862,1.0,0.0
+Leannon - Balistreri,2,426,1000,152,0.152,0.0,0.0
+Buckridge - Koch,4,146,1000,804,0.804,1.0,0.0
+Klein Group,4,507,1000,561,0.561,0.0,0.0
+Collins, Larson and Mills,4,276,1000,327.0,0.327,0.0
+Farrell, Weissnat and Krajcik,6,88,1000,937.0,0.937,1.0
+Kub - Brown,5,453,1000,324,0.324,0.0,0.0
+Beer - Runolfsson,6,353,1000,360,0.36,0.0,0.0
+Hayes, Torphy and Schiller,7,482,1000,797.0,0.797,1.0
+Hoeger LLC,5,412,1000,621,0.621,1.0,0.0
+Lakin LLC,2,559,1000,100,0.1,0.0,0.0
+Shields, Reichel and Corwin,8,241,1000,649.0,0.649,1.0
+Reynolds and Sons,6,184,1000,115,0.115,0.0,0.0
+Gutkowski - Boyle,6,392,1000,773,0.773,1.0,0.0
+Johnston - Rutherford,4,474,1000,823,0.823,1.0,0.0
+Aufderhar, Hamill and Witting,6,209,1000,104.0,0.104,0.0
+Sipes - Dare,3,301,1000,942,0.942,1.0,0.0
+Grimes - Abshire,2,346,1000,197,0.197,0.0,0.0
+Huels LLC,5,231,1000,553,0.553,0.0,0.0
+Romaguera Group,3,188,1000,634,0.634,1.0,0.0
+Franey - Block,4,486,1000,562,0.562,0.0,0.0
+Schoen, Auer and Prohaska,8,219,1000,117.0,0.117,0.0
+Tremblay, Schmeler and Ankunding,7,362,1000,721.0,0.721,1.0
+Bashirian - Abernathy,7,245,1000,781,0.781,1.0,0.0
+Vandervort - Walter,5,281,1000,228,0.228,0.0,0.0
+Windler LLC,6,505,1000,134,0.134,0.0,0.0
+Baumbach and Sons,4,272,1000,210,0.21,0.0,0.0
+Murazik, Kertzmann and Bergstrom,5,229,1000,356.0,0.356,0.0
+Hane, Gleichner and Olson,2,418,1000,314.0,0.314,0.0
+Lockman LLC,8,285,1000,324,0.324,0.0,0.0
+Goyette LLC,3,106,1000,263,0.263,0.0,0.0
+Hayes, Russel and Ruecker,7,334,1000,189.0,0.189,0.0
+Boyle and Sons,7,450,1000,123,0.123,0.0,0.0
+Adams Inc,3,195,1000,607,0.607,1.0,0.0
+Paucek - Littel,8,530,1000,701,0.701,1.0,0.0
+Hirthe - Brakus,7,473,1000,114,0.114,0.0,0.0
+Luettgen - Rempel,8,271,1000,313,0.313,0.0,0.0
+Predovic, Beer and Vandervort,2,458,1000,222.0,0.222,0.0
+Erdman, Swift and Labadie,4,382,1000,736.0,0.736,1.0
+Wisozk - Haag,8,223,1000,869,0.869,1.0,0.0
+Watsica, Nicolas and Rau,7,454,1000,289.0,0.289,0.0
+Bogisich LLC,5,443,1000,352,0.352,0.0,0.0
+Carter, Langworth and Grant,3,220,1000,526.0,0.526,0.0
+Waters - Tillman,6,243,1000,546,0.546,0.0,0.0
+Little - Kuhn,6,326,1000,260,0.26,0.0,0.0
+Koepp - Block,4,427,1000,885,0.885,1.0,0.0
+Feeney - Aufderhar,6,312,1000,867,0.867,1.0,0.0
+Stanton - Beer,6,494,1000,549,0.549,0.0,0.0
+Cronin Inc,6,361,1000,482,0.482,0.0,0.0
+Lind and Sons,2,605,1000,251,0.251,0.0,0.0
+Kuhn Inc,2,245,1000,905,0.905,1.0,0.0
+Bailey, Brekke and Jerde,6,513,1000,729.0,0.729,1.0
+Lynch, Langworth and Beatty,3,131,1000,376.0,0.376,0.0
+Kovacek - Hessel,3,185,1000,102,0.102,0.0,0.0
+Senger Group,4,335,1000,869,0.869,1.0,0.0
+Wisozk, Hartmann and Feil,7,309,1000,271.0,0.271,0.0
+Smitham - Schmidt,3,508,1000,278,0.278,0.0,0.0
+Konopelski and Sons,6,416,1000,148,0.148,0.0,0.0
+Kutch - Watsica,4,223,1000,342,0.342,0.0,0.0
+Baumbach - Haley,7,546,1000,348,0.348,0.0,0.0
+Stroman, Ferry and Schmeler,7,257,1000,300.0,0.3,0.0
+Hegmann - Bins,5,620,1000,673,0.673,1.0,0.0
+Smitham - Cronin,5,347,1000,665,0.665,1.0,0.0
+Runolfsson Inc,2,311,1000,792,0.792,1.0,0.0
+Hahn Inc,8,596,1000,349,0.349,0.0,0.0
+Corwin Inc,2,319,1000,510,0.51,0.0,0.0
+VonRueden LLC,7,516,1000,135,0.135,0.0,0.0
+Hessel Group,2,440,1000,135,0.135,0.0,0.0
+Jast, Spencer and Maggio,8,338,1000,502.0,0.502,0.0
+Kuvalis and Sons,8,353,1000,812,0.812,1.0,0.0
+King, McCullough and MacGyver,6,518,1000,485.0,0.485,0.0
+Schmidt - Lebsack,7,437,1000,298,0.298,0.0,0.0
+Hand Group,5,464,1000,944,0.944,1.0,0.0
+Conn and Sons,8,544,1000,111,0.111,0.0,0.0
+Volkman - Wiza,3,526,1000,326,0.326,0.0,0.0
+Nader - Kozey,8,458,1000,124,0.124,0.0,0.0
+O'Hara - Bernier,2,359,1000,345,0.345,0.0,0.0
+Hartmann Inc,4,455,1000,157,0.157,0.0,0.0
+Krajcik and Sons,8,109,1000,153,0.153,0.0,0.0
+Roberts and Sons,4,277,1000,297,0.297,0.0,0.0
+Hegmann - Dare,8,176,1000,201,0.201,0.0,0.0
+Johns - Cronin,4,537,1000,343,0.343,0.0,0.0
+Herzog and Sons,2,355,1000,717,0.717,1.0,0.0
+Kunze - Brakus,8,600,1000,273,0.273,0.0,0.0
+Monahan LLC,5,168,1000,165,0.165,0.0,0.0
+Goyette LLC,5,170,1000,616,0.616,1.0,0.0
+Kuhic, Jones and Botsford,8,361,1000,523.0,0.523,0.0
+Moen - Cassin,4,241,1000,455,0.455,0.0,0.0
+Hintz - Kulas,6,375,1000,792,0.792,1.0,0.0
+Ledner Group,2,457,1000,252,0.252,0.0,0.0
+Parker, Cremin and Mueller,7,344,1000,605.0,0.605,1.0
+Conn - Nikolaus,7,440,1000,248,0.248,0.0,0.0
+Goldner Group,3,677,1000,899,0.899,1.0,0.0
+Herman, Oberbrunner and Romaguera,7,562,1000,857.0,0.857,1.0
+Lehner - Ernser,6,262,1000,285,0.285,0.0,0.0
+Boyer LLC,3,475,1000,593,0.593,0.0,0.0
+Zemlak, O'Connell and Raynor,7,524,1000,376.0,0.376,0.0
+Heidenreich, Borer and Halvorson,2,542,1000,123.0,0.123,0.0
+Mraz and Sons,5,448,1000,515,0.515,0.0,0.0
+Luettgen and Sons,6,590,1000,318,0.318,0.0,0.0
+Kuphal - McLaughlin,3,531,1000,493,0.493,0.0,0.0
+Corkery and Sons,3,362,1000,235,0.235,0.0,0.0
+Lockman, Beahan and Becker,7,427,1000,920.0,0.92,1.0
+Rolfson, Reynolds and Harber,7,526,1000,388.0,0.388,0.0
+Wyman - Hauck,2,343,1000,190,0.19,0.0,0.0
+Herzog - Kuhn,6,431,1000,411,0.411,0.0,0.0
+Orn Group,5,50,1000,152,0.152,0.0,0.0
+Anderson - Schimmel,3,353,1000,377,0.377,0.0,0.0
+Bergnaum LLC,3,249,1000,313,0.313,0.0,0.0
+Roberts - O'Keefe,3,337,1000,690,0.69,1.0,0.0
+Gibson - Muller,5,531,1000,822,0.822,1.0,0.0
+Cormier Inc,4,399,1000,653,0.653,1.0,0.0
+Gutmann Group,8,307,1000,245,0.245,0.0,0.0
+Wuckert - Stehr,8,233,1000,845,0.845,1.0,0.0
+Johnson, Wiegand and Wolf,2,258,1000,579.0,0.579,0.0
+Gottlieb - Kuhn,2,253,1000,278,0.278,0.0,0.0
+Pfeffer - Keeling,3,669,1000,340,0.34,0.0,0.0
+Shields - McGlynn,3,360,1000,549,0.549,0.0,0.0
+Ledner LLC,4,375,1000,815,0.815,1.0,0.0
+Nienow, Pouros and Block,8,309,1000,302.0,0.302,0.0
+Funk, Cole and Ebert,6,234,1000,117.0,0.117,0.0
+Spinka, McKenzie and Hermiston,3,602,1000,142.0,0.142,0.0
+Homenick - Cole,7,491,1000,313,0.313,0.0,0.0
+Streich, Morar and Willms,8,562,1000,173.0,0.173,0.0
+O'Hara - Barrows,6,375,1000,301,0.301,0.0,0.0
+Stanton - West,2,347,1000,262,0.262,0.0,0.0
+Denesik LLC,3,474,1000,200,0.2,0.0,0.0
+Osinski Inc,2,397,1000,277,0.277,0.0,0.0
+Kunze, O'Kon and Greenholt,5,535,1000,496.0,0.496,0.0
+Nitzsche - Heller,7,459,1000,931,0.931,1.0,0.0
+Kunde, Mueller and Hayes,2,538,1000,533.0,0.533,0.0
+Buckridge - Gislason,3,205,1000,191,0.191,0.0,0.0
+Greenholt, Heaney and Gutkowski,6,155,1000,587.0,0.587,0.0
+Crona, Hoeger and Schneider,6,182,1000,580.0,0.58,0.0
+Grant Inc,6,58,1000,431,0.431,0.0,0.0
+Rohan - Graham,7,433,1000,170,0.17,0.0,0.0
+Farrell LLC,3,316,1000,584,0.584,0.0,0.0
+Littel Inc,5,186,1000,367,0.367,0.0,0.0
+Hartmann - Schumm,5,324,1000,636,0.636,1.0,0.0
+Von - Cartwright,2,512,1000,450,0.45,0.0,0.0
+Kuvalis - Murazik,5,162,1000,104,0.104,0.0,0.0
+Hammes Inc,4,189,1000,234,0.234,0.0,0.0
+Streich - Fritsch,3,241,1000,301,0.301,0.0,0.0
+Davis LLC,4,401,1000,370,0.37,0.0,0.0
+McClure - Ortiz,7,374,1000,358,0.358,0.0,0.0
+Hammes - Willms,7,413,1000,241,0.241,0.0,0.0
+Weber Group,5,592,1000,205,0.205,0.0,0.0
+West - Sauer,7,462,1000,450,0.45,0.0,0.0
+Kub - Sanford,6,534,1000,617,0.617,1.0,0.0
+Spencer, Harber and Raynor,8,367,1000,333.0,0.333,0.0
+Koss - Torphy,2,177,1000,869,0.869,1.0,0.0
+Hermiston Inc,7,394,1000,817,0.817,1.0,0.0
+Abernathy - Crist,5,470,1000,338,0.338,0.0,0.0
+Haley and Sons,3,496,1000,238,0.238,0.0,0.0
+Ratke - Beer,4,104,1000,323,0.323,0.0,0.0
+Abshire, Bernhard and Stanton,3,627,1000,260.0,0.26,0.0
+Volkman, Morar and Pacocha,7,327,1000,308.0,0.308,0.0
+Bechtelar, Wiegand and Blanda,3,414,1000,275.0,0.275,0.0
+Klein - Veum,5,329,1000,243,0.243,0.0,0.0
+Price - Herman,4,437,1000,569,0.569,0.0,0.0
+Batz - Hessel,6,347,1000,272,0.272,0.0,0.0
+Schaefer Group,3,384,1000,642,0.642,1.0,0.0
+Flatley - Harber,3,312,1000,466,0.466,0.0,0.0
+Williamson and Sons,7,141,1000,509,0.509,0.0,0.0
+Hoppe - Abbott,8,380,1000,296,0.296,0.0,0.0
+Reichel, Kiehn and Dare,4,278,1000,252.0,0.252,0.0
+Conroy - Hammes,2,435,1000,330,0.33,0.0,0.0
+Dietrich Inc,8,469,1000,149,0.149,0.0,0.0
+Corkery - Boyer,6,418,1000,324,0.324,0.0,0.0
+Wilkinson and Sons,7,387,1000,249,0.249,0.0,0.0
+Thompson - Johnston,2,292,1000,524,0.524,0.0,0.0
+Keebler - Raynor,6,359,1000,105,0.105,0.0,0.0
+O'Hara and Sons,3,222,1000,143,0.143,0.0,0.0
+Carroll and Sons,6,148,1000,713,0.713,1.0,0.0
+Erdman Group,4,404,1000,180,0.18,0.0,0.0
+Lubowitz - Gibson,3,558,1000,856,0.856,1.0,0.0
+Prohaska LLC,3,310,1000,206,0.206,0.0,0.0
+Jaskolski - Bergstrom,5,458,1000,581,0.581,0.0,0.0
+Morissette, Cruickshank and Rippin,5,339,1000,304.0,0.304,0.0
+Krajcik - Feest,7,195,1000,824,0.824,1.0,0.0
+Johnson - Langosh,6,343,1000,874,0.874,1.0,0.0
+Gutkowski LLC,4,169,1000,343,0.343,0.0,0.0
+Wolf Group,6,466,1000,236,0.236,0.0,0.0
+Zieme - Luettgen,5,450,1000,735,0.735,1.0,0.0
+Douglas Inc,2,487,1000,669,0.669,1.0,0.0
+Ritchie - McClure,5,353,1000,309,0.309,0.0,0.0
+Douglas, Ziemann and Larson,6,349,1000,347.0,0.347,0.0
+Pfeffer Group,5,328,1000,390,0.39,0.0,0.0
+DuBuque - Hickle,5,603,1000,768,0.768,1.0,0.0
+Bashirian, Abernathy and Ziemann,8,301,1000,169.0,0.169,0.0
+Collier - Kuhlman,6,607,1000,361,0.361,0.0,0.0
+Schaefer, Lehner and Windler,8,190,1000,892.0,0.892,1.0
+Franecki - Dickens,8,439,1000,167,0.167,0.0,0.0
+Wiegand - Kulas,2,290,1000,152,0.152,0.0,0.0
+Marks Inc,5,321,1000,216,0.216,0.0,0.0
+Olson, Beahan and Douglas,5,49,1000,218.0,0.218,0.0
+Ward - McLaughlin,6,210,1000,938,0.938,1.0,0.0
+Ullrich - Terry,4,260,1000,389,0.389,0.0,0.0
+Franey - Mayert,5,596,1000,239,0.239,0.0,0.0
+Simonis, Schuppe and Torp,5,338,1000,495.0,0.495,0.0
+Lebsack, Rowe and Barrows,6,267,1000,211.0,0.211,0.0
+Monahan LLC,2,688,1000,881,0.881,1.0,0.0
+Wuckert - Lindgren,2,564,1000,465,0.465,0.0,0.0
+Predovic - Monahan,4,7,1000,912,0.912,1.0,0.0
+Romaguera LLC,8,503,1000,830,0.83,1.0,0.0
+McCullough Group,2,228,1000,328,0.328,0.0,0.0
+Ratke LLC,2,411,1000,756,0.756,1.0,0.0
+Kling, Turner and Rosenbaum,3,346,1000,155.0,0.155,0.0
+Wolf - White,8,643,1000,910,0.91,1.0,0.0
+Torphy - Will,4,547,1000,540,0.54,0.0,0.0
+Batz and Sons,2,313,1000,619,0.619,1.0,0.0
+Erdman, Yundt and Borer,3,189,1000,850.0,0.85,1.0
+Kunze, VonRueden and Huel,4,192,1000,176.0,0.176,0.0
+Stoltenberg, Quigley and Armstrong,7,491,1000,370.0,0.37,0.0
+Macejkovic LLC,5,485,1000,899,0.899,1.0,0.0
+Beahan, Cassin and Grant,8,242,1000,590.0,0.59,0.0
+Bailey and Sons,4,207,1000,515,0.515,0.0,0.0
+Mueller Group,7,267,1000,351,0.351,0.0,0.0
+Metz - Hickle,4,50,1000,540,0.54,0.0,0.0
+Smitham, Rice and Rosenbaum,7,398,1000,564.0,0.564,0.0
+Cremin, Dickinson and Rogahn,7,238,1000,260.0,0.26,0.0
+Osinski, Kshlerin and Morar,5,200,1000,465.0,0.465,0.0
+Raynor Inc,4,408,1000,755,0.755,1.0,0.0
+O'Connell - Okuneva,5,263,1000,207,0.207,0.0,0.0
+Crona - Fadel,5,519,1000,450,0.45,0.0,0.0
+Heaney, Weimann and Witting,2,677,1000,683.0,0.683,1.0
+Hansen - Mitchell,3,529,1000,351,0.351,0.0,0.0
+O'Reilly - Jenkins,6,493,1000,203,0.203,0.0,0.0
+Hackett Group,2,391,1000,332,0.332,0.0,0.0
+Baumbach - Lakin,4,238,1000,638,0.638,1.0,0.0
+Beatty, Flatley and Russel,4,479,1000,944.0,0.944,1.0
+Beier Inc,8,326,1000,831,0.831,1.0,0.0
+Pfannerstill, Terry and Abbott,8,317,1000,710.0,0.71,1.0
+Johnson - Flatley,6,279,1000,219,0.219,0.0,0.0
+Wyman Group,7,90,1000,212,0.212,0.0,0.0
+Gutmann, Wunsch and Mann,2,88,1000,283.0,0.283,0.0
+Swaniawski, Heaney and Franecki,2,222,1000,611.0,0.611,1.0
+Bradtke - Beahan,8,391,1000,774,0.774,1.0,0.0
+Hills - Friesen,2,355,1000,429,0.429,0.0,0.0
+Aufderhar - Barton,7,326,1000,732,0.732,1.0,0.0
+Effertz Inc,8,498,1000,321,0.321,0.0,0.0
+Huel - Streich,6,400,1000,479,0.479,0.0,0.0
+Wolff - Kutch,8,416,1000,298,0.298,0.0,0.0
+Ryan and Sons,2,439,1000,536,0.536,0.0,0.0
+Grant - Hand,5,467,1000,502,0.502,0.0,0.0
+Collier - Daugherty,2,540,1000,368,0.368,0.0,0.0
+Rath, Donnelly and Rogahn,7,367,1000,586.0,0.586,0.0
+Borer, Murazik and Fisher,7,367,1000,171.0,0.171,0.0
+Torp - Feeney,7,248,1000,336,0.336,0.0,0.0
+O'Conner and Sons,8,411,1000,144,0.144,0.0,0.0
+Kerluke, Dicki and Littel,5,388,1000,283.0,0.283,0.0
+Wuckert, Reilly and West,3,41,1000,401.0,0.401,0.0
+Hermann - Schroeder,2,577,1000,782,0.782,1.0,0.0
+Wiegand - Osinski,7,27,1000,502,0.502,0.0,0.0
+Ziemann - Barrows,7,163,1000,594,0.594,0.0,0.0
+McGlynn, Bednar and Torphy,6,451,1000,190.0,0.19,0.0
+Ernser LLC,8,412,1000,617,0.617,1.0,0.0
+Cremin - Buckridge,8,120,1000,490,0.49,0.0,0.0
+Russel - Kuvalis,5,339,1000,137,0.137,0.0,0.0
+Schroeder - D'Amore,3,437,1000,418,0.418,0.0,0.0
+Kulas, Franey and Dickens,7,277,1000,323.0,0.323,0.0
+Hauck, Ernser and Robel,5,357,1000,340.0,0.34,0.0
+Marquardt Inc,2,362,1000,411,0.411,0.0,0.0
+Marks - Mann,3,658,1000,661,0.661,1.0,0.0
+Medhurst Group,5,129,1000,903,0.903,1.0,0.0
+Wyman - D'Amore,3,344,1000,665,0.665,1.0,0.0
+Stamm LLC,5,253,1000,852,0.852,1.0,0.0
+Zulauf, Stiedemann and Langworth,4,242,1000,389.0,0.389,0.0
+Lindgren, Weimann and Ruecker,7,167,1000,727.0,0.727,1.0
+Marquardt - Murray,6,286,1000,584,0.584,0.0,0.0
+Gutkowski LLC,3,364,1000,710,0.71,1.0,0.0
+Mraz - Ziemann,6,417,1000,182,0.182,0.0,0.0
+Hand, Abbott and Gusikowski,4,262,1000,432.0,0.432,0.0
+Brekke and Sons,5,255,1000,179,0.179,0.0,0.0
+King, Hessel and Larkin,2,43,1000,477.0,0.477,0.0
+Mann - Kiehn,8,512,1000,321,0.321,0.0,0.0
+Lindgren - Jones,5,457,1000,745,0.745,1.0,0.0
+Sipes, Von and Runolfsdottir,6,195,1000,178.0,0.178,0.0
+Hettinger, Mertz and Schuster,2,281,1000,270.0,0.27,0.0
+Swift, Moore and Renner,6,477,1000,331.0,0.331,0.0
+Kovacek, Bednar and Huels,3,695,1000,213.0,0.213,0.0
+Lynch - Kuphal,8,194,1000,846,0.846,1.0,0.0
+Senger Group,8,338,1000,175,0.175,0.0,0.0
+Gerlach, Rippin and Lynch,6,273,1000,571.0,0.571,0.0
+Jerde, Waelchi and Keebler,5,362,1000,704.0,0.704,1.0
+Bins and Sons,4,367,1000,187,0.187,0.0,0.0
+Heaney and Sons,2,556,1000,591,0.591,0.0,0.0
+Bernier, Kulas and McCullough,5,436,1000,603.0,0.603,1.0
+Haley, Thiel and Tillman,7,319,1000,694.0,0.694,1.0
+Legros Group,5,286,1000,830,0.83,1.0,0.0
+Ratke Group,8,678,1000,112,0.112,0.0,0.0
+Stanton Inc,8,182,1000,865,0.865,1.0,0.0
+Abbott and Sons,5,254,1000,313,0.313,0.0,0.0
+O'Hara Inc,6,400,1000,934,0.934,1.0,0.0
+Weber - West,7,294,1000,892,0.892,1.0,0.0
+Schaefer LLC,4,357,1000,155,0.155,0.0,0.0
+Turner - Herzog,5,382,1000,527,0.527,0.0,0.0
+MacGyver Group,3,435,1000,366,0.366,0.0,0.0
+Dickens - Hartmann,3,291,1000,240,0.24,0.0,0.0
+Mante - Graham,7,221,1000,584,0.584,0.0,0.0
+Boyle, Goldner and Johnson,6,374,1000,718.0,0.718,1.0
+Fisher, Mitchell and Prohaska,8,164,1000,870.0,0.87,1.0
+Stamm, Cartwright and Zulauf,8,278,1000,808.0,0.808,1.0
+Rice - Emard,6,310,1000,723,0.723,1.0,0.0
+Glover and Sons,3,465,1000,697,0.697,1.0,0.0
+Cassin, Crist and Heidenreich,8,270,1000,726.0,0.726,1.0
+Ziemann - Ruecker,4,407,1000,377,0.377,0.0,0.0
+Quigley, McDermott and Price,8,407,1000,637.0,0.637,1.0
+DuBuque and Sons,7,451,1000,208,0.208,0.0,0.0
+Orn, Bahringer and Ratke,5,283,1000,233.0,0.233,0.0
+Schumm Group,2,445,1000,902,0.902,1.0,0.0
+Abshire - Lubowitz,4,160,1000,403,0.403,0.0,0.0
+Cruickshank - Hammes,7,541,1000,249,0.249,0.0,0.0
+Dach and Sons,6,355,1000,556,0.556,0.0,0.0
+Rice, Macejkovic and Zulauf,5,240,1000,109.0,0.109,0.0
+Reilly - Rice,7,656,1000,361,0.361,0.0,0.0
+Dach - Hamill,6,603,1000,346,0.346,0.0,0.0
+Kreiger - Stroman,6,529,1000,171,0.171,0.0,0.0
+Jaskolski, Considine and Pacocha,6,380,1000,328.0,0.328,0.0
+Connelly - Price,4,620,1000,236,0.236,0.0,0.0
+Marquardt LLC,4,586,1000,567,0.567,0.0,0.0
+Lemke - Stoltenberg,8,442,1000,430,0.43,0.0,0.0
+Murray, Thiel and Beer,4,171,1000,151.0,0.151,0.0
+Smitham - Olson,7,483,1000,105,0.105,0.0,0.0
+Lubowitz - Terry,7,223,1000,568,0.568,0.0,0.0
+Thiel - Fadel,2,419,1000,346,0.346,0.0,0.0
+Barrows, Hilpert and Keeling,5,176,1000,384.0,0.384,0.0
+Emard Group,5,215,1000,638,0.638,1.0,0.0
+Gibson - Smitham,7,396,1000,812,0.812,1.0,0.0
+Grady and Sons,4,385,1000,361,0.361,0.0,0.0
+Windler, Homenick and Crona,7,176,1000,237.0,0.237,0.0
+Willms - Boyle,3,516,1000,329,0.329,0.0,0.0
+Olson Inc,7,305,1000,301,0.301,0.0,0.0
+Dickens, Altenwerth and Bruen,2,390,1000,110.0,0.11,0.0
+Ratke, Gibson and Greenfelder,5,605,1000,615.0,0.615,1.0
+Kunde Group,5,374,1000,252,0.252,0.0,0.0
+Haag - Becker,2,533,1000,940,0.94,1.0,0.0
+Kuhn - Weimann,2,285,1000,366,0.366,0.0,0.0
+Ernser, Larkin and Stamm,2,616,1000,117.0,0.117,0.0
+Jones - Schroeder,7,266,1000,237,0.237,0.0,0.0
+Labadie, Walter and Lebsack,7,17,1000,214.0,0.214,0.0
+Conn and Sons,6,348,1000,245,0.245,0.0,0.0
+Dare, Konopelski and Swaniawski,5,137,1000,630.0,0.63,1.0
+Sanford, Goyette and Hansen,4,97,1000,136.0,0.136,0.0
+O'Reilly Inc,8,391,1000,215,0.215,0.0,0.0
+Greenfelder, Kohler and Keeling,5,105,1000,595.0,0.595,0.0
+Batz Group,6,347,1000,434,0.434,0.0,0.0
+Corkery, Goldner and Legros,4,361,1000,747.0,0.747,1.0
+Smitham, Hauck and Welch,7,410,1000,184.0,0.184,0.0
+Hilpert, Hegmann and Schuppe,8,377,1000,317.0,0.317,0.0
+Kshlerin - Walsh,7,464,1000,239,0.239,0.0,0.0
+O'Keefe Group,6,500,1000,707,0.707,1.0,0.0
+Rosenbaum LLC,4,228,1000,630,0.63,1.0,0.0
+Dare and Sons,4,222,1000,604,0.604,1.0,0.0
+Schneider - Lesch,8,588,1000,171,0.171,0.0,0.0
+Jacobson - Adams,6,268,1000,719,0.719,1.0,0.0
+Marvin LLC,4,186,1000,143,0.143,0.0,0.0
+Waters - Ondricka,3,404,1000,158,0.158,0.0,0.0
+Roob, Sipes and Douglas,8,224,1000,468.0,0.468,0.0
+Halvorson, Treutel and Cartwright,3,290,1000,104.0,0.104,0.0
+Leffler - Lueilwitz,4,513,1000,220,0.22,0.0,0.0
+Schmeler, Bartoletti and Kassulke,2,107,1000,563.0,0.563,0.0
+Metz - Sawayn,3,448,1000,330,0.33,0.0,0.0
+Howell - Heaney,8,102,1000,403,0.403,0.0,0.0
+Graham - Christiansen,5,201,1000,107,0.107,0.0,0.0
+Abshire, Stracke and Hudson,7,392,1000,552.0,0.552,0.0
+Kshlerin Inc,4,499,1000,562,0.562,0.0,0.0
+Parker - Kassulke,6,327,1000,815,0.815,1.0,0.0
+Mueller - Steuber,2,613,1000,178,0.178,0.0,0.0
+O'Connell Group,8,21,1000,165,0.165,0.0,0.0
+Beatty - Klocko,4,386,1000,632,0.632,1.0,0.0
+Moore and Sons,6,312,1000,371,0.371,0.0,0.0
+Wehner, Tremblay and Morissette,3,358,1000,522.0,0.522,0.0
+Tillman - Waelchi,7,122,1000,158,0.158,0.0,0.0
+Stiedemann - Hoppe,4,392,1000,508,0.508,0.0,0.0
+Sawayn, Hudson and Dach,7,347,1000,172.0,0.172,0.0
+Smitham Group,5,589,1000,319,0.319,0.0,0.0
+Graham, Dare and Kuphal,2,115,1000,540.0,0.54,0.0
+Leffler, Effertz and Durgan,5,497,1000,201.0,0.201,0.0
+Tromp - Lang,4,283,1000,852,0.852,1.0,0.0
+Streich - Kuvalis,3,150,1000,122,0.122,0.0,0.0
+Feest - Orn,7,292,1000,132,0.132,0.0,0.0
+Erdman - Bernier,2,401,1000,716,0.716,1.0,0.0
+VonRueden Group,8,468,1000,731,0.731,1.0,0.0
+Hansen, Spencer and Crist,7,380,1000,852.0,0.852,1.0
+Stanton Inc,2,466,1000,215,0.215,0.0,0.0
+Goodwin - Langosh,2,308,1000,184,0.184,0.0,0.0
+Rath and Sons,7,389,1000,800,0.8,1.0,0.0
+Jacobi, Maggio and Zboncak,7,318,1000,198.0,0.198,0.0
+Smitham, Weissnat and Blanda,5,387,1000,514.0,0.514,0.0
+Koss and Sons,7,503,1000,251,0.251,0.0,0.0
+Bergstrom, West and Kozey,3,641,1000,648.0,0.648,1.0
+Herman, Rowe and Conroy,7,305,1000,188.0,0.188,0.0
+Marvin Inc,2,163,1000,726,0.726,1.0,0.0
+Harris - Pollich,6,500,1000,497,0.497,0.0,0.0
+Goldner LLC,3,25,1000,860,0.86,1.0,0.0
+Grimes Group,6,269,1000,935,0.935,1.0,0.0
+Wilderman, Lockman and Heller,4,302,1000,108.0,0.108,0.0
+Torphy, Bernhard and Gislason,4,386,1000,877.0,0.877,1.0
+Stark - Mann,7,728,1000,123,0.123,0.0,0.0
+Conn Group,5,459,1000,832,0.832,1.0,0.0
+Pfeffer, Koss and Nikolaus,2,527,1000,156.0,0.156,0.0
+Stracke Group,3,462,1000,663,0.663,1.0,0.0
+Sauer LLC,4,317,1000,810,0.81,1.0,0.0
+Kuvalis, Cartwright and Veum,2,581,1000,658.0,0.658,1.0
+Prohaska Group,3,558,1000,343,0.343,0.0,0.0
+Hamill Group,4,542,1000,232,0.232,0.0,0.0
+Anderson - Morissette,2,144,1000,431,0.431,0.0,0.0
+Medhurst, Hammes and Reinger,8,499,1000,352.0,0.352,0.0
+Wuckert - Anderson,2,435,1000,335,0.335,0.0,0.0
+Wilkinson, Brekke and McClure,7,429,1000,208.0,0.208,0.0
+Gerhold Group,7,288,1000,943,0.943,1.0,0.0
+O'Hara - West,2,519,1000,896,0.896,1.0,0.0
+Kihn, Frami and Thiel,6,507,1000,770.0,0.77,1.0
+Bode, Schuppe and Bergnaum,7,273,1000,310.0,0.31,0.0
+Langosh Group,3,403,1000,850,0.85,1.0,0.0
+Leannon - Bednar,3,195,1000,576,0.576,0.0,0.0
+Spinka Group,3,184,1000,152,0.152,0.0,0.0
+Collins LLC,4,194,1000,593,0.593,0.0,0.0
+Runolfsson Group,6,701,1000,649,0.649,1.0,0.0
+Mayert LLC,3,489,1000,336,0.336,0.0,0.0
+Medhurst LLC,8,330,1000,759,0.759,1.0,0.0
+Corwin Group,5,28,1000,122,0.122,0.0,0.0
+Lueilwitz LLC,2,610,1000,262,0.262,0.0,0.0
+Moore, Powlowski and Runolfsson,2,374,1000,204.0,0.204,0.0
+Durgan, Kertzmann and Ondricka,7,328,1000,730.0,0.73,1.0
+Johnson, Shanahan and Waters,2,261,1000,526.0,0.526,0.0
+Champlin - Mayer,6,624,1000,800,0.8,1.0,0.0
+Franecki, Grimes and Brekke,7,422,1000,859.0,0.859,1.0
+Oberbrunner Group,4,244,1000,334,0.334,0.0,0.0
+Braun - Trantow,7,396,1000,829,0.829,1.0,0.0
+Hickle - Steuber,5,520,1000,706,0.706,1.0,0.0
+Harris - Keeling,4,304,1000,755,0.755,1.0,0.0
+Senger LLC,4,640,1000,429,0.429,0.0,0.0
+Boyle, Koss and Williamson,2,487,1000,224.0,0.224,0.0
+Osinski - Morissette,7,104,1000,679,0.679,1.0,0.0
+Ferry - Lindgren,7,553,1000,303,0.303,0.0,0.0
+Flatley, Reichel and Gutkowski,8,108,1000,215.0,0.215,0.0
+Trantow Group,5,173,1000,839,0.839,1.0,0.0
+Schowalter and Sons,2,143,1000,327,0.327,0.0,0.0
+Strosin - Reinger,8,288,1000,175,0.175,0.0,0.0
+Kuhn Group,6,228,1000,830,0.83,1.0,0.0
+Robel LLC,2,351,1000,585,0.585,0.0,0.0
+Pouros Inc,2,520,1000,370,0.37,0.0,0.0
+Hoppe - Ledner,3,430,1000,497,0.497,0.0,0.0
+Larkin - Schroeder,5,251,1000,873,0.873,1.0,0.0
+Johnston - West,6,471,1000,583,0.583,0.0,0.0
+White, Bayer and Botsford,5,378,1000,100.0,0.1,0.0
+Hermiston LLC,3,313,1000,499,0.499,0.0,0.0
+Zieme LLC,5,357,1000,146,0.146,0.0,0.0
+Schmidt - Kilback,4,366,1000,685,0.685,1.0,0.0
+Mertz Inc,4,453,1000,366,0.366,0.0,0.0
+Shanahan and Sons,7,401,1000,901,0.901,1.0,0.0
+Stehr - Beer,2,319,1000,158,0.158,0.0,0.0
+Buckridge Inc,8,333,1000,794,0.794,1.0,0.0
+Dietrich, Pollich and Hahn,5,373,1000,213.0,0.213,0.0
+Wiegand and Sons,8,477,1000,319,0.319,0.0,0.0
+Schiller, Gislason and Dickinson,4,547,1000,685.0,0.685,1.0
+Wyman - Leuschke,3,390,1000,195,0.195,0.0,0.0
+Bruen - Muller,6,251,1000,627,0.627,1.0,0.0
+O'Reilly - Conn,7,324,1000,380,0.38,0.0,0.0
+Bosco Inc,2,612,1000,280,0.28,0.0,0.0
+Krajcik, Klein and Runolfsdottir,8,250,1000,549.0,0.549,0.0
+Graham LLC,2,247,1000,473,0.473,0.0,0.0
+Mayert Group,8,478,1000,489,0.489,0.0,0.0
+Ruecker - Zieme,2,163,1000,479,0.479,0.0,0.0
+Wisoky and Sons,4,375,1000,208,0.208,0.0,0.0
+Torphy - Runte,5,489,1000,591,0.591,0.0,0.0
+Strosin, Wuckert and Koss,4,375,1000,541.0,0.541,0.0
+Mosciski - Johns,4,145,1000,299,0.299,0.0,0.0
+Bahringer Inc,4,201,1000,215,0.215,0.0,0.0
+Balistreri - Satterfield,4,65,1000,735,0.735,1.0,0.0
+Stehr Group,6,534,1000,433,0.433,0.0,0.0
+McLaughlin - Dach,3,293,1000,923,0.923,1.0,0.0
+Olson Inc,3,115,1000,767,0.767,1.0,0.0
+Dickinson Inc,7,644,1000,612,0.612,1.0,0.0
+Johnston - Larson,2,546,1000,796,0.796,1.0,0.0
+Casper, Mosciski and Abbott,8,346,1000,813.0,0.813,1.0
+Will, Dibbert and Hegmann,8,358,1000,464.0,0.464,0.0
+Kuhn - Lang,5,272,1000,260,0.26,0.0,0.0
+Hansen - Reichel,3,404,1000,615,0.615,1.0,0.0
+Beier, Beer and Nolan,8,656,1000,722.0,0.722,1.0
+Beatty Inc,6,595,1000,547,0.547,0.0,0.0
+McGlynn - Nikolaus,2,608,1000,169,0.169,0.0,0.0
+Wunsch, Dach and Thiel,7,406,1000,625.0,0.625,1.0
+Pagac, O'Conner and Hudson,8,311,1000,258.0,0.258,0.0
+Hayes - Wuckert,3,362,1000,221,0.221,0.0,0.0
+DuBuque, Goodwin and Hettinger,6,314,1000,224.0,0.224,0.0
+Oberbrunner - Swaniawski,4,542,1000,929,0.929,1.0,0.0
+Bartoletti - Fadel,6,199,1000,306,0.306,0.0,0.0
+Kirlin, Ortiz and Mueller,8,241,1000,224.0,0.224,0.0
+Kuhlman - Corkery,4,335,1000,164,0.164,0.0,0.0
+Jacobi Inc,3,268,1000,389,0.389,0.0,0.0
+Gibson - Bosco,4,649,1000,949,0.949,1.0,0.0
+Zboncak LLC,5,279,1000,654,0.654,1.0,0.0
+Kertzmann, Roberts and Labadie,4,114,1000,714.0,0.714,1.0
+Gleichner - Kohler,8,558,1000,635,0.635,1.0,0.0
+Bailey, Skiles and Ortiz,4,118,1000,712.0,0.712,1.0
+Emmerich Inc,7,145,1000,124,0.124,0.0,0.0
+Kunze, Torp and Fay,2,369,1000,353.0,0.353,0.0
+Abshire, Gislason and Hoeger,3,321,1000,927.0,0.927,1.0
+Stoltenberg - Weimann,8,372,1000,550,0.55,0.0,0.0
+Runolfsdottir - Kovacek,4,380,1000,116,0.116,0.0,0.0
+Bosco, Spencer and Sawayn,8,203,1000,644.0,0.644,1.0
+Bode, Swift and Boyer,4,522,1000,237.0,0.237,0.0
+Jast and Sons,6,386,1000,303,0.303,0.0,0.0
+Greenholt - Hilll,6,267,1000,221,0.221,0.0,0.0
+Klein and Sons,7,274,1000,261,0.261,0.0,0.0
+Schaefer and Sons,7,312,1000,369,0.369,0.0,0.0
+Watsica Group,3,104,1000,305,0.305,0.0,0.0
+Jerde, Cummerata and Bosco,5,235,1000,105.0,0.105,0.0
+Dickinson - Collins,6,427,1000,324,0.324,0.0,0.0
+Toy and Sons,6,460,1000,312,0.312,0.0,0.0
+Corkery - Emard,4,418,1000,878,0.878,1.0,0.0
+Fisher and Sons,8,283,1000,877,0.877,1.0,0.0
+Terry - Moen,4,116,1000,579,0.579,0.0,0.0
+Stanton - Stracke,6,351,1000,536,0.536,0.0,0.0
+Bins - Spinka,7,133,1000,709,0.709,1.0,0.0
+Sauer - Kohler,8,510,1000,202,0.202,0.0,0.0
+McCullough, Lemke and Mosciski,7,624,1000,554.0,0.554,0.0
+Moen, Mills and Pollich,2,403,1000,252.0,0.252,0.0
+Stehr - Tremblay,8,282,1000,250,0.25,0.0,0.0
+Funk Inc,3,354,1000,940,0.94,1.0,0.0
+Veum Group,7,375,1000,774,0.774,1.0,0.0
+Williamson, Frami and Jerde,2,402,1000,320.0,0.32,0.0
+Heller, Glover and Klein,4,369,1000,105.0,0.105,0.0
+Kovacek, Yost and Rosenbaum,2,620,1000,457.0,0.457,0.0
+Lemke, Swift and Hermiston,3,62,1000,281.0,0.281,0.0
+Bode Inc,8,451,1000,345,0.345,0.0,0.0
+Hagenes, Mayert and Langosh,2,683,1000,183.0,0.183,0.0
+Predovic, Morissette and Kuhic,8,410,1000,400.0,0.4,0.0
+Koepp, D'Amore and Collins,8,434,1000,510.0,0.51,0.0
+Heathcote, Jones and Mills,8,144,1000,380.0,0.38,0.0
+Mayer, Gusikowski and Smith,8,204,1000,306.0,0.306,0.0
+Cruickshank - Marvin,3,197,1000,419,0.419,0.0,0.0
+Turner and Sons,5,455,1000,724,0.724,1.0,0.0
+Schumm - Crona,7,543,1000,219,0.219,0.0,0.0
+Schowalter - Marquardt,7,371,1000,527,0.527,0.0,0.0
+Bernhard - Brown,7,282,1000,166,0.166,0.0,0.0
+Tromp, Heller and Murray,7,390,1000,348.0,0.348,0.0
+O'Keefe - Romaguera,5,664,1000,255,0.255,0.0,0.0
