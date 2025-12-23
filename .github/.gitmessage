@@ -1,0 +1,26 @@
+# <type>: <subject> (max 50 characters)
+
+# <body> (optional, wrap at 72 characters)
+
+# <footer> (optional)
+# Closes #<issue-number>
+
+# Type can be:
+#   feat     (new feature)
+#   fix      (bug fix)
+#   docs     (documentation changes)
+#   style    (formatting, missing semi colons, etc)
+#   refactor (refactoring production code)
+#   test     (adding missing tests, refactoring tests)
+#   chore    (updating build tasks, package manager configs, etc)
+#   security (security improvements or fixes)
+#   perf     (performance improvements)
+#
+# Example:
+# feat: add blockchain vote verification
+#
+# Implemented SHA-256 hashing for vote integrity verification
+# on the blockchain. This ensures votes cannot be tampered with
+# after they are cast.
+#
+# Closes #123
